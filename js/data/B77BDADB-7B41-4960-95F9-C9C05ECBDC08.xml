@@ -1,0 +1,15 @@
+tocTab[tocTab.length] = new Array("0.1.4:1", "", "Object Diagrams", "EARoot/EA1/EA4/EA90.htm", "177.png", "10", "0", "", "Object diagram0","{54B33935-6EB8-4c23-B58D-C072A0FF9328}");
+tocTab[tocTab.length] = new Array("0.1.4:2", "", ": StockItem", "EARoot/EA1/EA4/EA95.htm", "25.png", "E74", "0", "", "Object0","{EDA61A16-8B09-4b99-91BD-0F709C7208F7}");
+tocTab[tocTab.length] = new Array("0.1.4:3", "", ": StockItem", "EARoot/EA1/EA4/EA96.htm", "25.png", "E75", "0", "", "Object0","{A2AB6D50-B48D-4ebe-9847-0707F2024D46}");
+tocTab[tocTab.length] = new Array("0.1.4:4", "", ": LineItem", "EARoot/EA1/EA4/EA97.htm", "25.png", "E79", "0", "", "Object0","{7BC812F1-D32E-4770-A827-B5E7D7D8CEFA}");
+tocTab[tocTab.length] = new Array("0.1.4:5", "", ": StockItem", "EARoot/EA1/EA4/EA98.htm", "25.png", "E85", "0", "", "Object0","{2156E26E-2592-4c08-9A61-2B2A6EF9219D}");
+tocTab[tocTab.length] = new Array("0.1.4:6", "", ": StockItem", "EARoot/EA1/EA4/EA99.htm", "25.png", "E86", "0", "", "Object0","{609D57C5-2B02-44b3-8D55-A96845970FEE}");
+tocTab[tocTab.length] = new Array("0.1.4:7", "", "Francis Redfield: Account", "EARoot/EA1/EA4/EA100.htm", "25.png", "E77", "0", "", "Object0","{24A8F323-205A-43d9-8ECE-C3B6DF17EA9F}");
+tocTab[tocTab.length] = new Array("0.1.4:8", "", "Item01: LineItem", "EARoot/EA1/EA4/EA101.htm", "25.png", "E73", "0", "", "Object0","{F9027DD6-D804-4acf-A876-C31C72FB36C8}");
+tocTab[tocTab.length] = new Array("0.1.4:9", "", "Item01: LineItem", "EARoot/EA1/EA4/EA102.htm", "25.png", "E78", "0", "", "Object0","{080BE78E-AA71-40f5-AFD0-5D3C3B532E24}");
+tocTab[tocTab.length] = new Array("0.1.4:10", "", "Item02: LineItem", "EARoot/EA1/EA4/EA103.htm", "25.png", "E83", "0", "", "Object0","{087B8194-97EE-4feb-91EF-E84D7C219AED}");
+tocTab[tocTab.length] = new Array("0.1.4:11", "", "Item03: LineItem", "EARoot/EA1/EA4/EA104.htm", "25.png", "E81", "0", "", "Object0","{470AC050-A25E-41d4-8CCE-B02A2EDF1EE5}");
+tocTab[tocTab.length] = new Array("0.1.4:12", "", "Joseph Osborne: Account", "EARoot/EA1/EA4/EA105.htm", "25.png", "E76", "0", "", "Object0","{7F30A5D7-9355-4828-8FD8-38B05F2C502A}");
+tocTab[tocTab.length] = new Array("0.1.4:13", "", "Ord-2005-02-11-JO-01: Order", "EARoot/EA1/EA4/EA106.htm", "25.png", "E80", "0", "", "Object0","{A656CDDE-1AAE-4584-8348-4B4CD48371DC}");
+tocTab[tocTab.length] = new Array("0.1.4:14", "", "Ord-2005-03-12-FR-01: Order", "EARoot/EA1/EA4/EA107.htm", "25.png", "E82", "0", "", "Object0","{69961DC9-AEA2-4c2f-91DE-C1B030780479}");
+tocTab[tocTab.length] = new Array("0.1.4:15", "", "Ord-2005-10-31-JO-01: Order", "EARoot/EA1/EA4/EA108.htm", "25.png", "E84", "0", "", "Object0","{DB6BC72D-FFB0-44d6-977A-CC17A7D99843}");

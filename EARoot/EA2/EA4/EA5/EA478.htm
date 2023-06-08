@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Invoice Payment</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Invoice Payment </h1>
+			<!-- <img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../EA1.htm">UML Modeling</a> / <a href="../../EA165.htm">UML Behavioral Diagrams</a> / <a href="../EA254.htm">Use Case Model</a> / <a href="EA480.htm">Fulfill Orders</a> / <a href="EA486.htm">Process Order</a> / <a href="EA478.htm">Invoice Payment</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../images/181.png" alt="Diagram"/> <a href="EA474.htm">Credit Card Problem</a></li>
+<li><img src="../../../../images/181.png" alt="Diagram"/> <a href="EA478.htm">Invoice Payment</a></li>
+<li><img src="../../../../images/98.png" alt="StateNode"/> <a href="EA507.htm"></a></li>
+<li><img src="../../../../images/122.png" alt="Synchronization"/> <a href="EA492.htm"></a></li>
+<li><img src="../../../../images/122.png" alt="Synchronization"/> <a href="EA493.htm"></a></li>
+<li><img src="../../../../images/193.png" alt="MergeNode"/> <a href="EA494.htm"></a></li>
+<li><img src="../../../../images/122.png" alt="Synchronization"/> <a href="EA495.htm"></a></li>
+<li><img src="../../../../images/193.png" alt="MergeNode"/> <a href="EA496.htm"></a></li>
+<li><img src="../../../../images/104.png" alt="Action"/> <a href="EA497.htm">Accept Order</a></li>
+<li><img src="../../../../images/69.png" alt="StateNode"/> <a href="EA498.htm">ActivityFinal</a></li>
+<li><img src="../../../../images/69.png" alt="StateNode"/> <a href="EA499.htm">ActivityFinal</a></li>
+<li><img src="../../../../images/104.png" alt="Action"/> <a href="EA500.htm">Cancel Order</a></li>
+<li><img src="../../../../images/104.png" alt="Action"/> <a href="EA501.htm">Check Credit Card</a></li>
+<li><img src="../../../../images/104.png" alt="Action"/> <a href="EA502.htm">Check Stock</a></li>
+<li><img src="../../../../images/104.png" alt="Action"/> <a href="EA503.htm">Deliver Goods</a></li>
+<li><img src="../../../../images/104.png" alt="Action"/> <a href="EA504.htm">Process Credit Card</a></li>
+<li><img src="../../../../images/56.png" alt="Decision"/> <a href="EA505.htm">Stock Available?</a></li>
+<li><img src="../../../../images/56.png" alt="Decision"/> <a href="EA506.htm">Valid Card?</a></li>
+<li><img src="../../../../images/116.png" alt="ActivityPartition"/> <a href="EA508.htm">Order</a></li>
+<li><img src="../../../../images/116.png" alt="ActivityPartition"/> <a href="EA509.htm">Transaction</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA479.png" usemap="#EA479" border="0" />
+
+<MAP NAME="EA479">
+<area shape="rect" coords="10,10,427,41" href="EA490.htm" target="_self">
+<area shape="rect" coords="658,110,861,292" href="EA489.htm" target="_self">
+<area shape="rect" coords="550,210,574,234" href="EA513.htm" target="_self">
+<area shape="rect" coords="237,139,263,173" href="EA519.htm" target="_self">
+<area shape="rect" coords="333,305,413,343" href="EA521.htm" target="_self">
+<area shape="rect" coords="353,422,369,438" href="EA511.htm" target="_self">
+<area shape="rect" coords="333,385,413,423" href="EA520.htm" target="_self">
+<area shape="rect" coords="230,422,246,438" href="EA510.htm" target="_self">
+<area shape="rect" coords="210,385,290,423" href="EA522.htm" target="_self">
+<area shape="rect" coords="452,139,478,173" href="EA512.htm" target="_self">
+<area shape="rect" coords="522,137,602,175" href="EA515.htm" target="_self">
+<area shape="rect" coords="333,137,413,175" href="EA518.htm" target="_self">
+<area shape="rect" coords="333,217,413,255" href="EA517.htm" target="_self">
+<area shape="rect" coords="112,137,192,175" href="EA516.htm" target="_self">
+<area shape="rect" coords="53,148,69,164" href="EA514.htm" target="_self">
+<area shape="rect" coords="25,70,603,285" href="EA508.htm" target="_self">
+<area shape="rect" coords="25,285,603,480" href="EA509.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Invoice Payment : Activity diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">18-01-2004 00:00:00</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">20-07-2018 14:47:02</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Penny Dark</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{460727A2-F4C4-4c29-8C43-5B0D2A85948B}</td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">Business Analysis tool,&#160;&#160;Activity diagram partitions in Sparx Systems Enterprise Architect&lt;br/&gt;page 12 UML 2.0 Specification&lt;br/&gt;&quot;A grouping of any set of model elements based on a set of criteria.&lt;br/&gt;1. activity diagram: A grouping of activity nodes and edges. Partitions divide the nodes and edges to constrain and&lt;br/&gt;show a view of the contained nodes. Partitions can share contents. They often correspond to organizational units in&lt;br/&gt;a business model. They may be used to allocate characteristics or resources among the nodes of an activity.&lt;br/&gt;2. architecture: A set of related classifiers or packages at the same level of abstraction or across layers in a layered&lt;br/&gt;architecture. A partition represents a vertical slice through an architecture, whereas a layer represents a horizontal&lt;br/&gt;slice. Contrast: layer.&quot;&lt;br/&gt;&lt;br/&gt;page. 307&lt;br/&gt;&quot;An activity partition is a kind of activity group for identifying actions that have some characteristic in&lt;br/&gt;common.&quot;&lt;br/&gt;</div>
+
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

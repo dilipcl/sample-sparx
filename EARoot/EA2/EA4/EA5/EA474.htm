@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Credit Card Problem</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Credit Card Problem </h1>
+			<!-- <img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../EA1.htm">UML Modeling</a> / <a href="../../EA165.htm">UML Behavioral Diagrams</a> / <a href="../EA254.htm">Use Case Model</a> / <a href="EA480.htm">Fulfill Orders</a> / <a href="EA486.htm">Process Order</a> / <a href="EA474.htm">Credit Card Problem</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../images/181.png" alt="Diagram"/> <a href="EA474.htm">Credit Card Problem</a></li>
+<li><img src="../../../../images/181.png" alt="Diagram"/> <a href="EA478.htm">Invoice Payment</a></li>
+<li><img src="../../../../images/98.png" alt="StateNode"/> <a href="EA507.htm"></a></li>
+<li><img src="../../../../images/122.png" alt="Synchronization"/> <a href="EA492.htm"></a></li>
+<li><img src="../../../../images/122.png" alt="Synchronization"/> <a href="EA493.htm"></a></li>
+<li><img src="../../../../images/193.png" alt="MergeNode"/> <a href="EA494.htm"></a></li>
+<li><img src="../../../../images/122.png" alt="Synchronization"/> <a href="EA495.htm"></a></li>
+<li><img src="../../../../images/193.png" alt="MergeNode"/> <a href="EA496.htm"></a></li>
+<li><img src="../../../../images/104.png" alt="Action"/> <a href="EA497.htm">Accept Order</a></li>
+<li><img src="../../../../images/69.png" alt="StateNode"/> <a href="EA498.htm">ActivityFinal</a></li>
+<li><img src="../../../../images/69.png" alt="StateNode"/> <a href="EA499.htm">ActivityFinal</a></li>
+<li><img src="../../../../images/104.png" alt="Action"/> <a href="EA500.htm">Cancel Order</a></li>
+<li><img src="../../../../images/104.png" alt="Action"/> <a href="EA501.htm">Check Credit Card</a></li>
+<li><img src="../../../../images/104.png" alt="Action"/> <a href="EA502.htm">Check Stock</a></li>
+<li><img src="../../../../images/104.png" alt="Action"/> <a href="EA503.htm">Deliver Goods</a></li>
+<li><img src="../../../../images/104.png" alt="Action"/> <a href="EA504.htm">Process Credit Card</a></li>
+<li><img src="../../../../images/56.png" alt="Decision"/> <a href="EA505.htm">Stock Available?</a></li>
+<li><img src="../../../../images/56.png" alt="Decision"/> <a href="EA506.htm">Valid Card?</a></li>
+<li><img src="../../../../images/116.png" alt="ActivityPartition"/> <a href="EA508.htm">Order</a></li>
+<li><img src="../../../../images/116.png" alt="ActivityPartition"/> <a href="EA509.htm">Transaction</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA475.png" usemap="#EA475" border="0" />
+
+<MAP NAME="EA475">
+<area shape="rect" coords="379,383,409,423" href="EA496.htm" target="_self">
+<area shape="rect" coords="652,231,658,327" href="EA495.htm" target="_self">
+<area shape="rect" coords="523,287,603,327" href="EA503.htm" target="_self">
+<area shape="rect" coords="523,231,603,271" href="EA504.htm" target="_self">
+<area shape="rect" coords="73,122,86,135" href="EA524.htm" target="_self">
+<area shape="rect" coords="490,117,513,140" href="EA523.htm" target="_self">
+<area shape="rect" coords="732,392,755,415" href="EA499.htm" target="_self">
+<area shape="rect" coords="732,268,755,291" href="EA498.htm" target="_self">
+<area shape="rect" coords="523,383,603,423" href="EA500.htm" target="_self">
+<area shape="rect" coords="469,231,475,327" href="EA493.htm" target="_self">
+<area shape="rect" coords="379,287,409,327" href="EA505.htm" target="_self">
+<area shape="rect" coords="342,231,372,271" href="EA506.htm" target="_self">
+<area shape="rect" coords="229,287,309,327" href="EA502.htm" target="_self">
+<area shape="rect" coords="229,231,309,271" href="EA501.htm" target="_self">
+<area shape="rect" coords="173,231,179,327" href="EA492.htm" target="_self">
+<area shape="rect" coords="58,239,74,255" href="EA530.htm" target="_self">
+<area shape="rect" coords="23,254,113,304" href="EA497.htm" target="_self">
+<area shape="rect" coords="369,108,449,148" href="EA528.htm" target="_self">
+<area shape="rect" coords="248,108,328,148" href="EA529.htm" target="_self">
+<area shape="rect" coords="127,108,207,148" href="EA527.htm" target="_self">
+<area shape="rect" coords="57,191,73,207" href="EA526.htm" target="_self">
+<area shape="rect" coords="23,53,562,192" href="EA481.htm" target="_self">
+<area shape="rect" coords="10,10,553,41" href="EA491.htm" target="_self">
+<area shape="rect" coords="603,63,849,182" href="EA488.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Credit Card Problem : Activity diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">05-03-2001 00:00:00</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">08-05-2020 10:37:03</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Benjamin Hutton</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{AF739F73-CC9C-42c5-B2E6-CAC70057E3C1}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

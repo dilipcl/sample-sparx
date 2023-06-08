@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.1.2:1", "", "Components", "EARoot/EA1/EA2/EA42.htm", "178.png", "501", "0", "", "Component diagram0","{0B3AAE1D-C601-47de-93B6-31E5BCC99CC7}");
+tocTab[tocTab.length] = new Array("0.1.2:2", "", "Account", "EARoot/EA1/EA2/EA47.htm", "10.png", "E3940", "0", "", "Component0","{1060A040-A58D-456b-BCDF-B6EFE39EEBBD}");
+tocTab[tocTab.length] = new Array("0.1.2:3", "", "Customer", "EARoot/EA1/EA2/EA48.htm", "10.png", "E3939", "0", "", "Component0","{A0AE68EC-E407-4d88-A932-14B58F811A2A}");
+tocTab[tocTab.length] = new Array("0.1.2:4", "", "Order", "EARoot/EA1/EA2/EA49.htm", "10.png", "E3938", "0", "", "Component0","{3EFF6F42-7B68-4530-A4D1-0827B908677F}");
+tocTab[tocTab.length] = new Array("0.1.2:5", "", "Product", "EARoot/EA1/EA2/EA50.htm", "10.png", "E3937", "0", "", "Component0","{24A4A028-3298-4711-B172-7801F396CD13}");
+tocTab[tocTab.length] = new Array("0.1.2:6", "", "Payment", "EARoot/EA1/EA2/EA51.htm", "111.png", "E3941", "E3938", "", "RequiredInterface0","{17834F63-99BF-40c1-8D5E-9D53085279D5}");
+tocTab[tocTab.length] = new Array("0.1.2:7", "", "Account Details", "EARoot/EA1/EA2/EA52.htm", "112.png", "E3942", "E3940", "", "ProvidedInterface0","{E58D62A0-3A5F-4fae-AC5A-533B5B3B6363}");

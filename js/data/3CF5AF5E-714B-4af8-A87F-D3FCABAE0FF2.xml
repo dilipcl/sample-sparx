@@ -1,0 +1,15 @@
+tocTab[tocTab.length] = new Array("0.2:1", "", "Activity Diagrams", "EARoot/EA2/EA151.htm", "188.png", "461", "0", "", "Custom diagram0","{781CF24C-5E41-4b35-9115-668CBA628153}");
+tocTab[tocTab.length] = new Array("0.2:2", "", "Communication Diagrams", "EARoot/EA2/EA153.htm", "188.png", "462", "0", "", "Custom diagram0","{4259C19F-D3FD-430a-B8CE-E8EED044B15F}");
+tocTab[tocTab.length] = new Array("0.2:3", "", "Interaction Overview Diagrams", "EARoot/EA2/EA155.htm", "188.png", "463", "0", "", "Custom diagram0","{F0A54E32-76DA-4431-B2B0-E4C9FA401EDF}");
+tocTab[tocTab.length] = new Array("0.2:4", "", "Sequence Diagrams", "EARoot/EA2/EA157.htm", "188.png", "460", "0", "", "Custom diagram0","{5C0EA911-079D-4867-9F03-37AB1A874DD6}");
+tocTab[tocTab.length] = new Array("0.2:5", "", "State Machine Diagrams", "EARoot/EA2/EA159.htm", "176.png", "13", "0", "", "Package diagram0","{589D5FCF-9F6F-4262-A32A-4BEC273BBE2D}");
+tocTab[tocTab.length] = new Array("0.2:6", "", "Timing Diagrams", "EARoot/EA2/EA161.htm", "188.png", "464", "0", "", "Custom diagram0","{6DB096B0-EFCE-4554-8CAF-F4A9455F082C}");
+tocTab[tocTab.length] = new Array("0.2:7", "", "Use Case Diagrams", "EARoot/EA2/EA163.htm", "180.png", "12", "0", "", "Use Case diagram0","{E6CFB2CD-12B4-43e2-A25C-F6C676B7BA99}");
+tocTab[tocTab.length] = new Array("0.2:8", "", "Create Account", "EARoot/EA2/EA167.htm", "21.png", "E3767", "0", "", "Activity0","{2719B3C2-8C32-4ab0-AFDF-CEAB43684E09}");
+tocTab[tocTab.length] = new Array("0.2:9", "", "Credit Card Problem", "EARoot/EA2/EA168.htm", "21.png", "E3538", "0", "", "Activity0","{8512D01F-C3DC-44d0-81B6-6267C25DAB53}");
+tocTab[tocTab.length] = new Array("0.2:10", "", "Customer Process", "EARoot/EA2/EA169.htm", "21.png", "E3536", "0", "", "Activity0","{ADCB8BAC-6FF9-4ada-895C-B333B9A466C0}");
+tocTab[tocTab.length] = new Array("0.2:11", "", "Customer Process", "EARoot/EA2/EA170.htm", "21.png", "E3537", "0", "", "Activity0","{64748E50-A2A4-4f1f-9BF3-03E083011803}");
+tocTab[tocTab.length] = new Array("0.2.1", "1", "Navigation Links", "EARoot/EA2/EA1/EA189.htm", "4.png", "", "", "{3F3B9DB7-0BA1-4bde-9355-D8530B727616}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2", "1", "Interactions", "EARoot/EA2/EA2/EA214.htm", "4.png", "", "", "{4C70616D-FEB5-48f0-977E-AF5F92E52E36}", "Package");
+tocTab[tocTab.length] = new Array("0.2.3", "1", "Timing", "EARoot/EA2/EA3/EA246.htm", "4.png", "", "", "{EA4D9FE7-EF76-425b-B868-87AC83CC9B6D}", "Package");
+tocTab[tocTab.length] = new Array("0.2.4", "1", "Use Case Model", "EARoot/EA2/EA4/EA254.htm", "4.png", "", "", "{AF099D00-D138-4838-A12D-A3DEFAFB79C7}", "Package");

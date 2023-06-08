@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Customer Process</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Customer Process </h1>
+			<!-- <img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../EA1.htm">UML Modeling</a> / <a href="../../../EA165.htm">UML Behavioral Diagrams</a> / <a href="../../EA254.htm">Use Case Model</a> / <a href="../EA531.htm">General Process</a> / <a href="EA536.htm">Standard Activity</a> / <a href="EA534.htm">Customer Process</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../images/181.png" alt="Diagram"/> <a href="EA534.htm">Customer Process</a></li>
+<li><img src="../../../../../images/104.png" alt="Action"/> <a href="EA538.htm">Add to Shopping Basket</a></li>
+<li><img src="../../../../../images/69.png" alt="StateNode"/> <a href="EA539.htm">Close Order</a></li>
+<li><img src="../../../../../images/104.png" alt="Action"/> <a href="EA540.htm">Commit Order</a></li>
+<li><img src="../../../../../images/104.png" alt="Action"/> <a href="EA541.htm">Confirm Purchase</a></li>
+<li><img src="../../../../../images/56.png" alt="Decision"/> <a href="EA542.htm">Credit OK?</a></li>
+<li><img src="../../../../../images/68.png" alt="StateNode"/> <a href="EA543.htm">Customer Enters Web site</a></li>
+<li><img src="../../../../../images/104.png" alt="Action"/> <a href="EA544.htm">Customer Logs In</a></li>
+<li><img src="../../../../../images/104.png" alt="Action"/> <a href="EA545.htm">Items Delivered</a></li>
+<li><img src="../../../../../images/69.png" alt="StateNode"/> <a href="EA546.htm">Order Complete</a></li>
+<li><img src="../../../../../images/104.png" alt="Action"/> <a href="EA547.htm">Reject Credit Card</a></li>
+<li><img src="../../../../../images/69.png" alt="StateNode"/> <a href="EA548.htm">Rejected</a></li>
+<li><img src="../../../../../images/104.png" alt="Action"/> <a href="EA549.htm">Select Book for Purchase</a></li>
+<li><img src="../../../../../images/104.png" alt="Action"/> <a href="EA550.htm">Supply Credit Card Details</a></li>
+<li><img src="../../../../../images/56.png" alt="Decision"/> <a href="EA551.htm">Valid User?</a></li>
+<li><img src="../../../../../images/104.png" alt="Action"/> <a href="EA552.htm">View BookStore</a></li>
+<li><img src="../../../../../images/104.png" alt="Action"/> <a href="EA553.htm">View Shopping Basket</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA535.png" usemap="#EA535" border="0" />
+
+<MAP NAME="EA535">
+<area shape="rect" coords="10,10,165,41" href="EA537.htm" target="_self">
+<area shape="rect" coords="372,671,392,691" href="EA546.htm" target="_self">
+<area shape="rect" coords="327,609,437,644" href="EA545.htm" target="_self">
+<area shape="rect" coords="369,471,395,505" href="EA542.htm" target="_self">
+<area shape="rect" coords="223,552,243,572" href="EA539.htm" target="_self">
+<area shape="rect" coords="177,471,287,506" href="EA547.htm" target="_self">
+<area shape="rect" coords="327,547,437,582" href="EA541.htm" target="_self">
+<area shape="rect" coords="327,394,437,429" href="EA550.htm" target="_self">
+<area shape="rect" coords="327,332,437,367" href="EA540.htm" target="_self">
+<area shape="rect" coords="327,270,437,305" href="EA553.htm" target="_self">
+<area shape="rect" coords="327,208,437,243" href="EA538.htm" target="_self">
+<area shape="rect" coords="327,146,437,181" href="EA549.htm" target="_self">
+<area shape="rect" coords="327,84,437,119" href="EA552.htm" target="_self">
+<area shape="rect" coords="244,161,264,181" href="EA548.htm" target="_self">
+<area shape="rect" coords="240,83,266,117" href="EA551.htm" target="_self">
+<area shape="rect" coords="86,84,196,119" href="EA544.htm" target="_self">
+<area shape="rect" coords="32,91,52,111" href="EA543.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Customer Process : Activity diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">27-09-2005 00:00:00</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">21-12-2016 12:39:55</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Chuck Wilson</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{6DB73AD6-BECD-46c2-9165-644A921C4428}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

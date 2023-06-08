@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.2.4.1:1", "", "Actors", "EARoot/EA2/EA4/EA1/EA264.htm", "180.png", "20", "0", "", "Use Case diagram0","{0EE35A7D-CB21-46f1-8776-A2B6F6716246}");
+tocTab[tocTab.length] = new Array("0.2.4.1:2", "", "Actors - Images", "EARoot/EA2/EA4/EA1/EA266.htm", "180.png", "21", "0", "", "Use Case diagram0","{5F3388F0-24B6-4c49-A322-4C0196EF7E61}");
+tocTab[tocTab.length] = new Array("0.2.4.1:3", "", "Administrator", "EARoot/EA2/EA4/EA1/EA272.htm", "6.png", "E146", "0", "", "Actor0","{503D1646-220F-40f0-9660-111E1902D378}");
+tocTab[tocTab.length] = new Array("0.2.4.1:4", "", "Client", "EARoot/EA2/EA4/EA1/EA273.htm", "6.png", "E142", "0", "", "Actor0","{CE0CCF64-C266-4a31-B5B7-142475E35CE3}");
+tocTab[tocTab.length] = new Array("0.2.4.1:5", "", "Operator", "EARoot/EA2/EA4/EA1/EA274.htm", "6.png", "E145", "0", "", "Actor0","{368A2680-E85A-4660-9F50-EA79A8B15F55}");
+tocTab[tocTab.length] = new Array("0.2.4.1:6", "", "Shipping Company", "EARoot/EA2/EA4/EA1/EA275.htm", "6.png", "E144", "0", "", "Actor0","{B3DFE55F-C99E-4859-A8AF-6054EB6EBF1A}");
+tocTab[tocTab.length] = new Array("0.2.4.1:7", "", "Storeroom Worker", "EARoot/EA2/EA4/EA1/EA276.htm", "6.png", "E143", "0", "", "Actor0","{82F18B86-D03E-48d1-976C-03D0E99CC5D6}");

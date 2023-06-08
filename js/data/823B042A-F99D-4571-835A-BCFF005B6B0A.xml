@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.1.5.1.1:1", "", "Connseq", "EARoot/EA1/EA5/EA1/EA1/EA123.htm", "175.png", "498", "0", "", "Logical diagram0","{707CF7EC-0BF0-49b0-9834-019138166ACD}");
+tocTab[tocTab.length] = new Array("0.1.5.1.1:2", "", "ConnSeg", "EARoot/EA1/EA5/EA1/EA1/EA126.htm", "5.png", "E3928", "0", "", "Class0","{EDFB9AB6-6359-4c47-9665-AA02B0655396}");
+tocTab[tocTab.length] = new Array("0.1.5.1.1:3", "", "NetAbstract", "EARoot/EA1/EA5/EA1/EA1/EA127.htm", "5.png", "E3929", "0", "", "Class0","{0B34C693-FDF9-4d25-A30D-05C3E095C8FB}");

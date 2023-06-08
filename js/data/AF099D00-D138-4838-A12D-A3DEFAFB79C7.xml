@@ -1,0 +1,8 @@
+tocTab[tocTab.length] = new Array("0.2.4:1", "", "Use Case Model", "EARoot/EA2/EA4/EA252.htm", "180.png", "19", "0", "", "Use Case diagram0","{07111650-3040-4426-9DF5-490F0F0D5AC0}");
+tocTab[tocTab.length] = new Array("0.2.4:2", "", "«EAMatrixSpecification» Requirements Trace", "EARoot/EA2/EA4/EA255.htm", "82.png", "E6854", "0", "", "Artifact0","{65AB3B56-7982-4129-BC98-0AF80D1138BE}");
+tocTab[tocTab.length] = new Array("0.2.4.1", "1", "Actors", "EARoot/EA2/EA4/EA1/EA268.htm", "4.png", "", "", "{11745241-BD2E-4a10-AB2E-EC9884FC3D8E}", "Package");
+tocTab[tocTab.length] = new Array("0.2.4.2", "1", "Manage Users", "EARoot/EA2/EA4/EA2/EA305.htm", "4.png", "", "", "{7D5F207F-7A8D-4b4b-BFE7-553783781EFD}", "Package");
+tocTab[tocTab.length] = new Array("0.2.4.3", "1", "Manage Inventory", "EARoot/EA2/EA4/EA3/EA406.htm", "4.png", "", "", "{3A338F97-2E9C-4c57-B7DA-4709F3D855D5}", "Package");
+tocTab[tocTab.length] = new Array("0.2.4.4", "1", "Take Orders", "EARoot/EA2/EA4/EA4/EA456.htm", "4.png", "", "", "{219FF20E-0648-4df7-81F9-4F2304B553E7}", "Package");
+tocTab[tocTab.length] = new Array("0.2.4.5", "1", "Fulfill Orders", "EARoot/EA2/EA4/EA5/EA480.htm", "4.png", "", "", "{85EF86CC-555F-493d-9A35-2196B2D9A659}", "Package");
+tocTab[tocTab.length] = new Array("0.2.4.6", "1", "General Process", "EARoot/EA2/EA4/EA6/EA531.htm", "4.png", "", "", "{5B5F06FA-E93D-44c5-BE1F-BA6C120F6D7C}", "Package");
