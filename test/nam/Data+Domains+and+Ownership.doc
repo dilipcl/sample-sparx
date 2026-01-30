@@ -1,0 +1,937 @@
+Date: Mon, 26 Jan 2026 17:30:48 +0000 (GMT)
+Message-ID: <1346341304.11530.1769448648289@lgblprap002.unix.group.net>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_11529_474663098.1769448648285"
+
+------=_Part_11529_474663098.1769448648285
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Data Domains and Ownership</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Data Domains and Ownership</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"DataDomainsandOwnership-Purpose">Purpose</h2>
+<p>One of the Principles of Data Governance is that enterprise data doesn't=
+ "belong" to individuals. It is an asset that belongs to the enterprise. Ho=
+wever, it still needs to be <strong>managed</strong>,</p>
+<p>Having Data ownership defined in AZP acknowledges that AZP data is "owne=
+d" by the organization rather than individuals or silos with in the enterpr=
+ise.,&nbsp;</p>
+<p>However, accountabilities for working with that data must be assigned to=
+ roles in the organization, and individuals (or teams) fill these roles. Ha=
+ving designated <strong>Business Data Owners</strong> can help in coordinat=
+ing these accountabilities.</p>
+<p>Data Ownership is crucial to know..</p>
+<ul>
+ <li>Where does the data <em>originate </em>and who <em>uses </em>it?</li>
+ <li>Is there <em>accountability at each stage </em>of the data journey?</l=
+i>
+ <li>Is everyone clear on their <em>roles and responsibilities</em>?</li>
+ <li>Is there a clear understanding of the <em>business rules and quality s=
+tandards</em>?</li>
+ <li>What is the process to <em>resolve data issues</em>? Which teams get i=
+nvolved?</li>
+</ul>
+<h2 id=3D"DataDomainsandOwnership-AFRDATARequirements">AFRDATA Requirements=
+&nbsp;</h2>
+<p>As part of AFRDATA compliance, it is mandatory to have Data Ownership de=
+fined within AZP.</p>
+<p>AZP Data Owners will work with <span style=3D"color:#c9372c;"><span styl=
+e=3D"color:#172b4d;">AZP Data Office</span> </span>to:</p>
+<ul>
+ <li>Define, update and publish AZP Business Glossary. AZP Business Glossar=
+y must be adopted and extended from Global Business Glossary.</li>
+ <li>Provide data requirements to AZP Data Office to implement a Data Catal=
+og for AZP relevant use cases (including relevant global use cases).</li>
+ <li><span style=3D"color:#172b4d;">Authorize access to their respective da=
+ta sets for data sharing.</span></li>
+</ul>
+<p>Data Requirements must consist of:</p>
+<ul>
+ <li>Data Privacy requirements in line with AFRIS and APS including guidanc=
+e for data anonymization/ pseudonymization.</li>
+ <li>Data Quality requirements for core data&nbsp;</li>
+ <li>End to end business and technical lineage for core data.&nbsp;</li>
+</ul>
+<h2 id=3D"DataDomainsandOwnership-Acronyms/Definitions">Acronyms/ Definitio=
+ns</h2>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped confluenceTable">
+  <colgroup>
+   <col>
+   <col>
+  </colgroup>
+  <tbody>
+   <tr>
+    <th class=3D"confluenceTh">Acronym</th>
+    <th class=3D"confluenceTh">Definition</th>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">AZP</td>
+    <td class=3D"confluenceTd">Allianz Personal Lines UK</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">AZH</td>
+    <td class=3D"confluenceTd">Allianz Holdings UK</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">AFRDATA</td>
+    <td class=3D"confluenceTd">Allianz Functional Rule for Core Data Handli=
+ng</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">AFRIS</td>
+    <td class=3D"confluenceTd">Allianz Functional Rule of Information Secur=
+ity</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">APS</td>
+    <td class=3D"confluenceTd">Allianz Privacy Standard</td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<h2 id=3D"DataDomainsandOwnership-DomainDrivenOwnership">Domain Driven Owne=
+rship</h2>
+<p>AZP have looked at organizing data ownership based on Data domains.&nbsp=
+;</p>
+<p>Data Domains are high level logical grouping of data based on items of O=
+rganization interest to or within the organization. For e.g.: Customer, Pro=
+duct/Service. Location etc.&nbsp;Leveraged to organize the business as per =
+areas of expertise and management.</p>
+<p>These can go across business units and systems. They can have different =
+stakeholders. <strong>Each domain is owned by an Exec Business Data Owner. =
+</strong>This provides cross domain steer for decision making and an escala=
+tion path.</p>
+<h3 id=3D"DataDomainsandOwnership-Benefits">Benefits</h3>
+<p>Domain driven ownership provides means to manage the organization of dat=
+a and the ownership (Inc. stewardship) for effective decision making and pr=
+oblem solving. This decision making benefits to:</p>
+<ul>
+ <li>Extract <strong>maximum value</strong> from data assets.</li>
+ <li><strong>Reduce cost by avoiding waste</strong> due to poorly defined q=
+uality of data.</li>
+ <li>Comply to <strong>Pricing technical excellence requirement </strong>of=
+ data ownership for pricing function.</li>
+ <li>
+  <p>Identify personal data as part of business glossary classification and=
+ data catalog for <strong>data protection</strong>.</p></li>
+ <li>
+  <p>Implement AZP obligations for <strong>Allianz group data standards</st=
+rong>.</p></li>
+ <li>
+  <p>Enable <strong>better decision making </strong>by improving quality an=
+d understanding of our data.</p></li>
+</ul>
+<h2 id=3D"DataDomainsandOwnership-DomainType"><span>Domain Type&nbsp;</span=
+></h2>
+<p>Domain types are determined based on the categories of data stakeholders=
+.</p>
+<p>Domain types can be of Data Consumer, Producer or both.</p>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 47=
+.6914%;">
+  <colgroup>
+   <col style=3D"width: 13.4752%;">
+   <col style=3D"width: 41.7258%;">
+   <col style=3D"width: 44.7991%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th class=3D"confluenceTh">Domain Type</th>
+    <th class=3D"confluenceTh">Responsibilities</th>
+    <th colspan=3D"1" class=3D"confluenceTh"><a href=3D"https://confluence.=
+group.net/display/GIBP/Data+Capability" rel=3D"nofollow">Data Capability le=
+vel</a></th>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Data Consumers</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li>Define Information assets</li>
+      <li>Define data and business terms for the Information assets</li>
+      <li>Responsible for specifying data quality requirements</li>
+      <li>Ensure data is fit for purpose for the defined information assets=
+.</li>
+     </ul></td>
+    <td colspan=3D"1" class=3D"confluenceTd">
+     <p>Data Consumer</p>
+     <p>Data Interpreter</p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Data Producers</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li>Ensure data produced can be used as per consumer needs.</li>
+      <li>Ensure data quality is implemented as per consumer specification.=
+</li>
+      <li>Define processes to monitor data quality within their domain</li>
+     </ul></td>
+    <td colspan=3D"1" class=3D"confluenceTd">Data Interrogator</td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p>For combined Domain types:</p>
+<ul>
+ <li>As a data producer, ensure the responsibilities of consuming domains a=
+re met.</li>
+ <li>As a data consumer, ensure the definitions are in place for the produc=
+ing domains.</li>
+</ul>
+<h2 id=3D"DataDomainsandOwnership-AZPDataDomains">AZP Data Domains</h2>
+<p>Following domains have been identified based on <a class=3D"external-lin=
+k" href=3D"https://lvchange/td/operational/giportfolio/Team/Business%20Chan=
+ge/GI%20Business%20Intelligence/Data%20Governance/Data%20Domains/LV%20Busin=
+ess%20Capability%20Model%20v1.1.xls?Web=3D1" rel=3D"nofollow">LV=3DGI Busin=
+ess Capability model</a></p>
+<p><strong><sup>1</sup></strong>&nbsp; AZH Shared Services data domains</p>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table confluenceTable" style=3D"width: 924.333px;=
+">
+  <thead class=3D"">
+   <tr class=3D"">
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">#</th>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Domain</th>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Shared Service (Y/N)</th>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Subdomain</th>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Owners</th>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">
+     <p><span style=3D"color:#164555;"><strong>:information:Training provis=
+ioned</strong></span></p></th>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th"><span style=3D"color:#216e4e;"><strong>=E2=99=A6</strong></span>Lead do=
+main owner</th>
+   </tr>
+  </thead>
+  <colgroup class=3D"">
+   <col class=3D"" style=3D"width: 71.1771px;">
+   <col class=3D"" style=3D"width: 140.292px;">
+   <col class=3D"" style=3D"width: 68.0833px;">
+   <col class=3D"" style=3D"width: 187.062px;">
+   <col class=3D"" style=3D"width: 270.865px;">
+   <col class=3D"" style=3D"width: 102.719px;">
+   <col class=3D"" style=3D"width: 83.4688px;">
+  </colgroup>
+  <tbody class=3D"">
+   <tr class=3D"">
+    <td rowspan=3D"6" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTd">
+     <p><br></p>
+     <p><br></p>
+     <p>1.</p>
+     <p><br></p></td>
+    <td rowspan=3D"6" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTd">
+     <p><br></p>
+     <p><br></p>
+     <p><strong>Customer Management</strong><br><br></p>
+     <p><br></p></td>
+    <td rowspan=3D"6" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTd">
+     <p><br></p>
+     <p><br></p>
+     <p>N</p>
+     <p><br></p></td>
+    <td rowspan=3D"3" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTd">Customer Administration &amp; Complaints Management</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>Nicola Dunning, Customer and Operations director (Retail)</p></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">:tick:</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">:tick:</td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>Kevin Gill, Broker Operations director (Broker)</p></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">:tick:</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><span style=3D"color:#702e00;">:tick:</span></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>Wasib Ahmed, Flow Operations manager (Flow)</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><span style=3D"color:#702e00;">&nbsp;</span></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><span style=3D"color:#702e00;">&nbsp;</span></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Customer experience</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Holly Rylands, Head of Customer Insight</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><span style=3D"color:#702e00;">:tick:</span></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><span style=3D"color:#702e00;">:tick:</span></td>
+   </tr>
+   <tr class=3D"">
+    <td rowspan=3D"2" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTd">Customer Marketing</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>Joanna Lidgey, Head of Performance Marketing (Retail)</p></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><span style=3D"color:#702e00;">:tick:</span></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><span style=3D"color:#702e00;">:tick:</span></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>Anna Cole, Broker Marketing director (Broker)</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><span style=3D"color:#702e00;">&nbsp;</span></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><span style=3D"color:#702e00;">&nbsp;</span></td>
+   </tr>
+   <tr class=3D"">
+    <td rowspan=3D"5" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTd">
+     <p><br></p>
+     <p><br></p>
+     <p><br></p>
+     <p>2.</p>
+     <p><br></p></td>
+    <td rowspan=3D"5" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTd">
+     <p><br></p>
+     <p><br></p>
+     <p><br></p>
+     <p><strong>Claims Management</strong></p>
+     <p><br></p></td>
+    <td rowspan=3D"5" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTd">
+     <p><br></p>
+     <p><br></p>
+     <p>N</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>Customer Claims Operations</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Brian Hodge, Customer Claims Operations</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p><br></p></td>
+    <td rowspan=3D"5" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTd">
+     <p><br></p>
+     <p><br></p>
+     <p>David Butcher, Head of claims strategy and change</p></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Technical Claims Operations</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Mike King, Technical Claims Operations</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p style=3D"text-align: center;">:tick:</p></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Claims Supplier &amp; Procurement (external data)</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Rachel Scarrett, Director of GI Procurement and SRM</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p><br></p></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Claims interactive communication analysis</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Simon Ward, Head of Operational Analytics</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p style=3D"text-align: center;"><span style=3D"color:#702e00;">:tick:=
+</span></p></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><strong>*&nbsp;<span>&nbsp;</span></strong>Financial Crime</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Ben Fletcher, Director of Financial crime</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p><br></p></td>
+   </tr>
+   <tr class=3D"">
+    <td rowspan=3D"4" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTd">
+     <p><br></p>
+     <p><br></p>
+     <p>3.</p></td>
+    <td rowspan=3D"4" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTd">
+     <p><br></p>
+     <p><br></p>
+     <p><strong>Financial Management</strong></p></td>
+    <td rowspan=3D"4" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTd">
+     <p><br></p>
+     <p><br></p>
+     <p>Y</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Reinsurance</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Stuart Diffey, Director- Financial Planning and Analysis</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><br></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><br></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Corporate Actuarial (Reserving)</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Phil Knowles, Head of GI Reserving</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><span style=3D"color:#172b4d;">&nbsp;</span></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><span style=3D"color:#172b4d;">&nbsp;</span></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><strong>*&nbsp;</strong>Financial Management Reporting</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">April Lu, AZP Finance Director</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><span style=3D"color:#172b4d;">&nbsp;</span></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><span style=3D"color:#172b4d;"><span style=3D"color:#702e00;">:tick:<=
+/span></span></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><strong>*&nbsp;</strong>Financial Accounting, Control &amp; Reporting</=
+td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Mark Dixon, Group Financial Controller</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><span style=3D"color:#172b4d;">&nbsp;</span></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><span style=3D"color:#172b4d;">&nbsp;</span></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>4.</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p><strong>*&nbsp;HR Management</strong></p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>Y</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p><strong>*<span>&nbsp;</span></strong>People, Pay &amp; Rewards</p><=
+/td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Michelle Peters, Head of operational Excellence</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><span style=3D"color:#702e00;">&nbsp;</span></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><span style=3D"color:#702e00;">&nbsp;</span></td>
+   </tr>
+   <tr class=3D"">
+    <td rowspan=3D"5" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTd">
+     <p><br></p>
+     <p>5.</p></td>
+    <td rowspan=3D"5" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTd">
+     <p><br></p>
+     <p><strong>Policy Management</strong></p></td>
+    <td rowspan=3D"5" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTd">
+     <p><br></p>
+     <p>N</p></td>
+    <td rowspan=3D"3" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTd">Policy Administration</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>Nicola Dunning, Customer and Operations director (Retail)</p></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">
+     <p><span style=3D"color:#702e00;">:tick:</span></p></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">
+     <p><span style=3D"color:#702e00;">:tick:</span></p></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>Kevin Gill, Broker Operations director (Broker)</p></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">
+     <p><span style=3D"color:#702e00;">:tick:</span></p></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">
+     <p><span style=3D"color:#702e00;">:tick:</span></p></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>Wasib Ahmed, Flow Operations manager (Flow)</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p><span style=3D"color:#702e00;">&nbsp;</span></p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p><br></p></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Document fulfilment</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>Martin Frost, Head of Business Services</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p style=3D"text-align: center;"><span style=3D"color:#702e00;">:tick:=
+</span></p></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">
+     <p><span style=3D"color:#702e00;">:tick:</span></p></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Sales &amp; service interactive communication analysis</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Simon Ward, Head of Operational Analytics</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">
+     <p><span style=3D"color:#702e00;">:tick:</span></p></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">
+     <p><span style=3D"color:#702e00;">:tick:</span></p></td>
+   </tr>
+   <tr class=3D"">
+    <td rowspan=3D"2" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTd">
+     <p><br></p>
+     <p>6.</p>
+     <p><br></p></td>
+    <td rowspan=3D"2" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTd">
+     <p><br></p>
+     <p><strong>Underwriting Management</strong></p></td>
+    <td rowspan=3D"2" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTd">
+     <p><br></p>
+     <p>N</p></td>
+    <td rowspan=3D"2" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTd">UW Risk, Rules and definitions,<br>
+      Product/ Proposition Management,<br>
+      Operation UW Fraud</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>Sarah Smith, Underwriting director (Retail)</p></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">
+     <p><span style=3D"color:#702e00;">:tick:</span></p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p style=3D"text-align: center;"><span style=3D"color:#702e00;">:tick:=
+</span></p></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>Lee Bodman, Pricing &amp; Underwriting director (Broker)</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p style=3D"text-align: center;"><span style=3D"color:#702e00;">:tick:=
+</span></p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p><br></p></td>
+   </tr>
+   <tr class=3D"">
+    <td rowspan=3D"3" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTd">
+     <p>7.</p>
+     <p><br></p></td>
+    <td rowspan=3D"3" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTd">
+     <p><strong>Pricing Management</strong></p>
+     <p><strong>&nbsp;</strong></p></td>
+    <td rowspan=3D"3" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTd">
+     <p><br></p>
+     <p><br></p>
+     <p>N</p></td>
+    <td rowspan=3D"2" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTd">
+     <p>Portfolio Pricing</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>Ben Wilson, Head of R&amp;D and optimisation (Retail) - Interim</p>=
+</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">
+     <p><span style=3D"color:#702e00;">:tick:</span></p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p><br></p></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>Lee Bodman, Pricing &amp; Underwriting director (Broker)</p></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">
+     <p><span style=3D"color:#702e00;">:tick:</span></p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p><br></p></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>Pricing Technical Excellence</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>James Todd, Technical excellence director</p></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">
+     <p><span style=3D"color:#702e00;">:tick:</span></p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p style=3D"text-align: center;"><span style=3D"color:#702e00;">:tick:=
+</span></p></td>
+   </tr>
+   <tr class=3D"">
+    <td rowspan=3D"2" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTd">
+     <p><br></p>
+     <p>8.</p></td>
+    <td rowspan=3D"2" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTd">
+     <p><br></p>
+     <p><strong>Distribution Management</strong><br><strong><br></strong></=
+p></td>
+    <td rowspan=3D"2" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTd">N</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><strong>*<span>&nbsp;</span></strong>Intermediary profiling</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Simon Hird, Partnerships director</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p><br></p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><br></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><strong>*<span>&nbsp;</span></strong>Broker Relationship Management</td=
+>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Darren Prior, Head of broker</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p><br></p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><br></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">9.</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><strong>External Data Management</strong></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">N</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><strong>&nbsp;</strong></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Mark Veasey, Head of data hunting</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><span style=3D"color:#702e00;">:tick:</span></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><span style=3D"color:#702e00;">:tick:</span></td>
+   </tr>
+   <tr class=3D"">
+    <td rowspan=3D"2" style=3D"text-align: center;vertical-align: top;" cla=
+ss=3D"confluenceTd">
+     <p><br></p>
+     <p style=3D"text-align: left;">10.</p></td>
+    <td rowspan=3D"2" style=3D"text-align: center;vertical-align: top;" cla=
+ss=3D"confluenceTd">
+     <p><br></p>
+     <p style=3D"text-align: left;"><strong>Data and Analytics</strong><br>=
+<strong><br></strong></p></td>
+    <td rowspan=3D"2" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTd">N</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Central data production &amp; MI</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Steven McDonald, Head of Business Intelligence, BICoE</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><span style=3D"color:#702e00;">:tick:</span></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><span style=3D"color:#702e00;">:tick:</span></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Machine learning models</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">David Silverstone, Director of Data Science</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><span style=3D"color:#702e00;">:tick:</span></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><span style=3D"color:#702e00;">:tick:</span></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p class=3D"auto-cursor-target"><span style=3D"color:#216e4e;"><strong>=E2=
+=99=A6<span>&nbsp;</span></strong></span><em>Lead Business domain owner pro=
+viding overall oversight to the corresponding domain.&nbsp;</em></p>
+<p><strong>*<span>&nbsp;</span></strong>Engagement pending</p>
+<p><span style=3D"color:#164555;"><strong>:information:<span>&nbsp;</span><=
+/strong>Data Governance Overview training pack is available<span>&nbsp;</sp=
+an><a class=3D"external-link" href=3D"https://lvchange/td/operational/gipor=
+tfolio/Team/Business%20Change/GI%20Business%20Intelligence/Data%20Governanc=
+e/Data%20Domains/Data%20Governance%20-%20overview.pptx" rel=3D"nofollow" st=
+yle=3D"">here</a></span></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_11529_474663098.1769448648285--

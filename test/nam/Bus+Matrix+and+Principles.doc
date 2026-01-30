@@ -1,0 +1,2945 @@
+Date: Mon, 26 Jan 2026 18:08:08 +0000 (GMT)
+Message-ID: <1954614128.11571.1769450888633@lgblprap002.unix.group.net>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_11570_558909444.1769450888628"
+
+------=_Part_11570_558909444.1769450888628
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Bus Matrix and Principles</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Bus Matrix and Principles</h1>
+    <div class=3D"Section1">
+        <p style=3D"">The model will follow the Dimensional Modelling metho=
+dology, the reason described in section 4. A precursor to aid modelling is =
+to use a simple Business (Bus) Matrix, which maps measures (facts) to conte=
+xt (dimensions). Below is our existing Matrix :</p>
+<p style=3D""><br></p>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table confluenceTable" style=3D"width: 5418.5px;"=
+>
+  <colgroup>
+   <col style=3D"width: 132.859px;">
+   <col style=3D"width: 87.7656px;">
+   <col style=3D"width: 88.7812px;">
+   <col style=3D"width: 77.7344px;">
+   <col style=3D"width: 80.2812px;">
+   <col style=3D"width: 74.2969px;">
+   <col style=3D"width: 82.1562px;">
+   <col style=3D"width: 115.578px;">
+   <col style=3D"width: 84.8125px;">
+   <col style=3D"width: 101.312px;">
+   <col style=3D"width: 76.125px;">
+   <col style=3D"width: 89.6562px;">
+   <col style=3D"width: 90.0469px;">
+   <col style=3D"width: 98.2344px;">
+   <col style=3D"width: 98.2344px;">
+   <col style=3D"width: 60.6406px;">
+   <col style=3D"width: 105.922px;">
+   <col style=3D"width: 59.0312px;">
+   <col style=3D"width: 130.016px;">
+   <col style=3D"width: 100.188px;">
+   <col style=3D"width: 104.562px;">
+   <col style=3D"width: 59.0312px;">
+   <col style=3D"width: 68.2031px;">
+   <col style=3D"width: 91.0469px;">
+   <col style=3D"width: 74.0469px;">
+   <col style=3D"width: 82.1719px;">
+   <col style=3D"width: 82.1094px;">
+   <col style=3D"width: 92.6094px;">
+   <col style=3D"width: 92.6094px;">
+   <col style=3D"width: 91.7188px;">
+   <col style=3D"width: 81.5469px;">
+   <col style=3D"width: 89.4375px;">
+   <col style=3D"width: 139.375px;">
+   <col style=3D"width: 86.8438px;">
+   <col style=3D"width: 90.0469px;">
+   <col style=3D"width: 91.0469px;">
+   <col style=3D"width: 62.7812px;">
+   <col style=3D"width: 123.406px;">
+   <col style=3D"width: 123.406px;">
+   <col style=3D"width: 69.4688px;">
+   <col style=3D"width: 74.0469px;">
+   <col style=3D"width: 78.1719px;">
+   <col style=3D"width: 92.6094px;">
+   <col style=3D"width: 91.8594px;">
+   <col style=3D"width: 80.4062px;">
+   <col style=3D"width: 85.7812px;">
+   <col style=3D"width: 101.5px;">
+   <col style=3D"width: 72.5625px;">
+   <col style=3D"width: 59.0312px;">
+   <col style=3D"width: 125.703px;">
+   <col style=3D"width: 127.484px;">
+   <col style=3D"width: 59.5px;">
+   <col style=3D"width: 112.844px;">
+   <col style=3D"width: 104.344px;">
+   <col style=3D"width: 124.781px;">
+   <col style=3D"width: 81.2969px;">
+   <col style=3D"width: 80.4062px;">
+   <col style=3D"width: 76.125px;">
+   <col style=3D"width: 83.7812px;">
+   <col style=3D"width: 76.125px;">
+  </colgroup>
+  <thead>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh"><br></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>ACTIVITY PATTERN</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>ADDRESS</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>CLAIMS</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>BROKER</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>CC GROUP</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>USER GROUPS</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>CLAIM COMPONENT</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>HISTORY TYPE</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>CLAIM INDICATOR TYPE</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>CLAIM STATUS</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>COA MESSAGE</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>CONTACT ROLE</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>COVERAGE TERM</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>COVERAGE TYPE</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>DATE</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>DOCUMENT</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>EFT TYPE</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>ENDORSEMENT TYPE</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>FNOL SNAPSHOT</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>GI HIERARCHY</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>HIRE TYPE</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>HOME ITEM</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>HOME ITEM FREETEXT</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>HOME POLICY ITEM</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>HOME REPUD REASON</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>IMAGE UPLOAD TYPE</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>INBOUND DATA STATUS</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>INBOUND FILE</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>INCIDENT</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>LEGAL MATTER</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>LIABILITY HISTORY</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>MANUFACTURER APPROVAL</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>MID REQUEST DETAIL</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>MLE CONTACT</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>NOTE FREETEXT</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>NOTE TYPE</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>NOTIFICATION REQUEST TYPE</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>NOTIFICATION STATUS</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>PARTY</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>POLICY</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>POLICY ADDON TYPE</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>REFERRAL TYPE</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>REPAIR ESTIMATE TYPE</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>REPAIR SERVICE</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>SALVAGE STATUS</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>SERVICE PROVIDER SPECIALITY</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>SMS DETAIL</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>SMS TYPE</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>SUBROGATION</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>SUPPLIER APPOINTMENT STATUS</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>TIME</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>TL SETTLEMENT TYPE</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>TL VALUATION TYPE</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>TRANSACTION TYPE</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>VEHICLE</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>WEB SERVICE STATUS</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>WORK ORDER STATUS</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>XS CHANGE REASON</p></th>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">
+     <p>XS STATUS</p></th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">ACTIVITIES</th>
+    <td style=3D"text-align: center;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">CLAIMS</th>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">TRANSACTIONS</th=
+>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">CLAIM COMPONENTS=
+</th>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">USER HOURS</th>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">ASSIGNMENTS</th>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">CLAIM CONTACTS</=
+th>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">HISTORY</th>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">CLAIM INDICATORS=
+</th>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">NOTES</th>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">STATUS HISTORY</=
+th>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">COVERAGES</th>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">DOCUMENTS</th>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">EFT</th>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">ENDORSEMENTS</th=
+>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">HIRE INVOICES</t=
+h>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">HIRES</th>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">HOME ITEMS</th>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">HOME POLICY ITEM=
+S</th>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">SUPPLIER APPOINT=
+MENTS</th>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">IMAGE UPLOADS</t=
+h>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">INBOUND DATA</th=
+>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">INCIDENTS</th>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">LEGAL MATTERS</t=
+h>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">MID REQUESTS</th=
+>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">MOTOR XS WAIVED<=
+/th>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">NOTIFICATION REQ=
+UESTS</th>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">POLICY ADDONS</t=
+h>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">REFERRALS</th>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">REPAIR ESTIMATES=
+</th>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">REPAIR SERVICES<=
+/th>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">SALVAGE INSTRUCT=
+IONS</th>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">SMS</th>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">SUBROGATIONS</th=
+>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">TL SETTLEMENTS</=
+th>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">TL VALUATIONS</t=
+h>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">WEB SERVICE CALL=
+S</th>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;" class=3D"confluenceTh">WORK ORDERS</th>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">X</td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p style=3D""><br></p>
+<p style=3D"">We will be following the below design principles for our Dime=
+nsional Modelling, to ensure it remains a uniform and consistent environmen=
+t for users:</p>
+<p style=3D""><strong>Rule #1: Load detailed atomic data.</strong></p>
+<p style=3D"">Tables should be populated with bedrock atomic details to sup=
+port the unpredictable filtering and grouping required by business user que=
+ries. Users typically don=E2=80=99t need to see a single record at a time, =
+but you can=E2=80=99t predict the somewhat arbitrary ways they=E2=80=99ll w=
+ant to screen and roll up the details. If only summarised data is available=
+, then you=E2=80=99ve already made assumptions about data usage patterns th=
+at will cause users to run into a brick wall when they want to dig deeper i=
+nto the details. Of course, atomic details can be complemented by summary =
+=E2=80=98Master Views=E2=80=99 that provide performance advantages for comm=
+on queries of aggregated data, but business users cannot live on summary da=
+ta alone; they need the gory details to answer their ever-changing question=
+s.</p>
+<p style=3D""><strong>Rule #2: Structure data models around business proces=
+ses.</strong></p>
+<p style=3D"">Business processes are the activities performed by your organ=
+ization; they represent measurement events, like taking an order or billing=
+ a customer. Business processes typically capture or generate unique perfor=
+mance metrics associated with each event. These metrics translate into fact=
+s, with each business process represented by a single atomic fact table. In=
+ addition to single process fact tables, consolidated fact tables are somet=
+imes created that combine metrics from multiple processes into one fact tab=
+le at a common level of detail. Again, consolidated fact tables are a compl=
+ement to the detailed single-process fact tables, not a substitute for them=
+.</p>
+<p style=3D""><strong>Rule #3: Ensure that every fact table has an associat=
+ed date dimension table.</strong></p>
+<p style=3D"">The measurement events described in Rule #2 always have a dat=
+e stamp of some variety associated with them, whether it=E2=80=99s a monthl=
+y balance snapshot or a monetary transfer captured to the hundredth of a se=
+cond. Every fact table should have at least one foreign key to an associate=
+d date dimension table, whose grain is a single day, with calendar attribut=
+es and nonstandard characteristics about the measurement event date, such a=
+s the fiscal month and corporate holiday indicator. Sometimes multiple date=
+ foreign keys are represented in a fact table.</p>
+<p style=3D""><strong>Rule #4: Ensure that all facts in a single fact table=
+ are at the same grain or level of detail.</strong></p>
+<p style=3D"">There are three fundamental grains to categorize all fact tab=
+les: transactional, periodic snapshot, or accumulating snapshot. Regardless=
+ of its grain type, every measurement within a fact table must be at the ex=
+act same level of detail. When you mix facts representing multiple levels o=
+f granularity in the same fact table, you are setting yourself up for busin=
+ess user confusion and making the BI applications vulnerable to overstated =
+or otherwise erroneous results.</p>
+<p style=3D""><strong>Rule #5: Resolve many-to-many relationships in fact t=
+ables.</strong></p>
+<p style=3D"">Since a fact table stores the results of a business process e=
+vent, there=E2=80=99s inherently a many-to-many (M:M) relationship between =
+its foreign keys, such as multiple products being sold in multiple stores o=
+n multiple days. These foreign key fields should never be null. Sometimes d=
+imensions can take on multiple values for a single measurement event, such =
+as the multiple diagnoses associated with a health care encounter or multip=
+le customers with a bank account. In these cases, it=E2=80=99s unreasonable=
+ to resolve the many-valued dimensions directly in the fact table, as this =
+would violate the natural grain of the measurement event. Thus, we use a ma=
+ny-to-many, dual-keyed bridge table in conjunction with the fact table.</p>
+<p style=3D""><strong>Rule #6: Resolve many-to-one relationships in dimensi=
+on tables.</strong></p>
+<p style=3D"">Hierarchical, fixed-depth many-to-one (M:1) relationships bet=
+ween attributes are typically denormalized or collapsed into a flattened di=
+mension table. If you=E2=80=99ve spent most of your career designing entity=
+-relationship models for transaction processing systems, you=E2=80=99ll nee=
+d to resist your instinctive tendency to normalize or snowflake a M:1 relat=
+ionship into smaller subdimensions; dimension denormalization is the name o=
+f the game in dimensional modeling.</p>
+<p style=3D"">It is relatively common to have multiple M:1 relationships re=
+presented in a single dimension table. One-to-one relationships, like a uni=
+que product description associated with a product code, are also handled in=
+ a dimension table. Occasionally many-to-one relationships are resolved in =
+the fact table, such as the case when the detailed dimension table has mill=
+ions of rows and its roll-up attributes are frequently changing. However, u=
+sing the fact table to resolve M:1 relationships should be done sparingly.<=
+/p>
+<p style=3D""><strong>Rule #7: Store report labels and filter domain values=
+ in dimension tables.</strong></p>
+<p style=3D"">The codes and, more importantly, associated decodes and descr=
+iptors used for labeling and query filtering should be captured in dimensio=
+n tables. Avoid storing cryptic code fields or bulky descriptive fields in =
+the fact table itself; likewise, don=E2=80=99t just store the code in the d=
+imension table and assume that users don=E2=80=99t need descriptive decodes=
+ or that they=E2=80=99ll be handled in the BI application. If it=E2=80=99s =
+a row/column label or pull-down menu filter, then it should be handled as a=
+ dimension attribute.</p>
+<p style=3D"">Though we stated in Rule #5 that fact table foreign keys shou=
+ld never be null, it=E2=80=99s also advisable to avoid nulls in the dimensi=
+on tables=E2=80=99 attribute fields by replacing the null value with =E2=80=
+=9CNA=E2=80=9D (not applicable) or another default value, determined by the=
+ data steward, to reduce user confusion if possible.</p>
+<p style=3D""><strong>Rule #8: Make certain that dimension tables use a sur=
+rogate key.</strong></p>
+<p style=3D"">Meaningless, sequentially assigned surrogate keys (except for=
+ the date dimension, where chronologically assigned and even more meaningfu=
+l keys are acceptable) deliver a number of operational benefits, including =
+smaller keys which mean smaller fact tables, smaller indexes, and improved =
+performance. Surrogate keys are absolutely required if you=E2=80=99re track=
+ing dimension attribute changes with a new dimension record for each profil=
+e change. Even if your business users don=E2=80=99t initially visualize the=
+ value of tracking attribute changes, using surrogates will make a downstre=
+am policy change less onerous. The surrogates also allow you to map multipl=
+e operational keys to a common profile, plus buffer you from unexpected ope=
+rational activities, like the recycling of an obsolete product number or ac=
+quisition of another company with its own coding schemes.</p>
+<p style=3D""><strong>Rule #9: Create conformed dimensions to integrate dat=
+a across the enterprise.</strong></p>
+<p style=3D"">Conformed dimensions (otherwise known as common, master, stan=
+dard or reference dimensions) are essential for enterprise data warehousing=
+. Managed once in the ETL system and then reused across multiple fact table=
+s, conformed dimensions deliver consistent descriptive attributes across di=
+mensional models and support the ability to drill across and integrate data=
+ from multiple business processes. The Enterprise Data Warehouse Bus Matrix=
+ is the key architecture blueprint for representing the organization=E2=80=
+=99s core business processes and associated dimensionality. Reusing conform=
+ed dimensions ultimately shortens the time-to-market by eliminating redunda=
+nt design and development efforts; however, conformed dimensions require a =
+commitment and investment in data stewardship and governance, even if you d=
+on=E2=80=99t need everyone to agree on every dimension attribute to leverag=
+e conformity.</p>
+<p style=3D""><strong>Rule #10: Continuously balance requirements and reali=
+ties to deliver a DW/BI solution that=E2=80=99s accepted by business users =
+and that supports their decision-making</strong>.</p>
+<p style=3D"">Dimensional modelers must constantly straddle business user r=
+equirements along with the underlying realities of the associated source da=
+ta to deliver a design that can be implemented and that, more importantly, =
+stands a reasonable chance of business adoption. The requirements-versus-re=
+alities balancing act is a fact of life for DW/BI practitioners, whether yo=
+u=E2=80=99re focused on the dimensional model, project strategy, technical/=
+ETL/BI architectures or deployment/maintenance plan.</p>
+    </div>
+</body>
+</html>
+------=_Part_11570_558909444.1769450888628--

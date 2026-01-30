@@ -1,0 +1,723 @@
+Date: Mon, 26 Jan 2026 17:09:14 +0100 (CET)
+Message-ID: <53120251.22169.1769443754035@cmp-prod.allianz.net>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_22168_1608756003.1769443754013"
+
+------=_Part_22168_1608756003.1769443754013
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Gold Layer Naming Standards</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Gold Layer Naming Standards</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"GoldLayerNamingStandards-Purpose">Purpose</h1>
+<p>This document defines the naming conventions for all&nbsp;<strong>Gold L=
+ayer (Curated / Consumption ready)</strong> data objects built within the A=
+llianz ADP Lakehouse using Databricks Delta Lake.<br>
+  The Gold layer is the <strong>semantic presentation layer</strong>, servi=
+ng enterprise reporting, MI, analytics, pricing, actuarial, underwriting, o=
+perational BI, and downstream integrations.<br>
+  These naming standards ensure:</p>
+<ul>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"e=
+d3d1f23-aa3b-400b-b24d-3bee8d79b195">Business-friendly, <strong><span style=
+=3D"color:#c9372c;">Az UK EDM</span>-aligned</strong> naming</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"a=
+c88f1f5-b4fc-4732-bcb1-ec437135075b">Consistent naming of facts, dimensions=
+, bridges, aggregates, audits</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"c=
+d644b7c-2bc6-4199-aded-f639f6e0cddc">Clear lineage across multi-source harm=
+onisation</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"8=
+ea778f8-2573-4ab9-8a6c-37751d64f57d">Predictability for BI/AI consumers and=
+ external vendors</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"0=
+ca8b1b2-55a3-4f3f-a637-591146cab2c8">Ease of onboarding for legacy data pla=
+tform decom/migration teams</li>
+</ul>
+<p><br>
+  These standards are <strong>project-agnostic</strong> and apply to all fu=
+ture ADP development.</p>
+<div role=3D"region" aria-label=3D"Note" class=3D"confluence-information-ma=
+cro  confluence-information-macro-note">
+ <span role=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconfont-=
+warning confluence-information-macro-icon"></span>
+ <div class=3D"confluence-information-macro-body">
+  <p>These naming standards represent the <strong>target</strong> for all n=
+ew Gold layer models in the ADP platform.<br>
+    For the SAS Decommissioning &amp; Migration Project:</p>
+  <ul>
+   <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D=
+"687c2913-f033-4ebc-b48a-ebfa5d85051b">Where existing SAS interfaces/ extra=
+cts feed downstream processes that cannot be changed, <strong>Gold outputs =
+may retain legacy structures</strong> <em>only for interface protection</em=
+>.</li>
+   <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D=
+"0c7ce8d1-2b17-4667-80fb-299e1acfdf82">Any such exceptions must be document=
+ed in the SAS decom decision log</li>
+   <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D=
+"011b87e4-6674-4d63-8ab4-78cc25324fc8">All redesigned assets, mart replacem=
+ents, conformed dimensions, and new facts/dimensions <strong>must follow th=
+is naming standard</strong>.</li>
+  </ul>
+ </div>
+</div>
+<p><br></p>
+<h1 id=3D"GoldLayerNamingStandards-Scope">Scope</h1>
+<p>These conventions apply to all Gold layer objects:</p>
+<h3 id=3D"GoldLayerNamingStandards-PhysicalTables"><strong>Physical Tables<=
+/strong></h3>
+<ul>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"b=
+d4d4f69-3d1b-41af-bd2c-01c57b1a4783">Fact tables (<code>fct_=E2=80=A6</code=
+>)</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"e=
+d923f11-46f3-443c-b123-c804eaa6b9a8">Dimension tables (<code>dim_=E2=80=A6<=
+/code>)</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" style=3D"color=
+:#c9372c;" data-uuid=3D"06e2e9fb-d121-4ebc-8535-865b9fe99885"><span style=
+=3D"color:#c9372c;">Bridge tables (<code>brg_=E2=80=A6</code>)</span></li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"7=
+35e8241-e93f-40b1-810d-e688142dbd7a">Aggregation tables (<code>=E2=80=A6_ag=
+g</code>)</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"b=
+467d231-7210-45cb-b71d-9e86d0d2636a">Reference dimensions</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"e=
+17c4d57-801d-4e91-baef-c340cc87b044">Snowflaked dimensions</li>
+</ul>
+<h3 id=3D"GoldLayerNamingStandards-Attributes(Columns)"><strong>Attributes =
+(Columns)</strong></h3>
+<ul>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"0=
+647f381-6885-482e-8086-96cb82f3a672">All use <strong>Subject + Qualifier + =
+LogicalDataType [refer&nbsp;<a href=3D"https://cmp.allianz.net/pages/viewpa=
+ge.action?pageId=3D1753831232#InstandaProductDataConfigurationandGovernance=
+-DataAttributeNamingConvention" rel=3D"nofollow">naming standards</a>]</str=
+ong></li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"7=
+73caba0-439d-48d3-965e-960e020c32d7">PascalCase</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"1=
+87b09e2-aaf2-4617-903c-17800c1d838b">Business-friendly</li>
+</ul>
+<h3 id=3D"GoldLayerNamingStandards-Views"><strong>Views</strong></h3>
+<ul>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"0=
+11fa9ca-e0cf-4a03-82db-57db9bd169c4">Insert views: <code>vw_ins_&lt;source&=
+gt;_&lt;target&gt;</code></li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"5=
+9575464-1e07-4c6a-b43a-41482b4fda4c">Presentation views</li>
+</ul>
+<h3 id=3D"GoldLayerNamingStandards-Auditcolumns"><strong>Audit columns</str=
+ong></h3>
+<ul>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"c=
+c5fddb2-c747-4a04-978f-9f8e393bec48"><code>DWH_DATA_DTS</code></li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"3=
+d2a2352-65ea-40ee-87a6-7ca5307f8799"><code>DWH_CREATE_DTS</code></li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"6=
+6120999-d1dd-4bc8-bbaf-61bd2d2e3114"><code>DWH_REC_SRC_CD</code></li>
+</ul>
+<p><br>
+  Not in scope:</p>
+<ul>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"9=
+25f9442-f371-402d-b847-966b2e55556d">Raw Vault, Business Vault, ODS, or DV2=
+.0 naming (covered in separate pages)</li>
+</ul>
+<h1 id=3D"GoldLayerNamingStandards-Conceptual&amp;LogicalDataModelNamingSta=
+ndards"><strong>Conceptual &amp; Logical Data Model Naming Standards</stron=
+g></h1>
+<h2 id=3D"GoldLayerNamingStandards-2.1AttributeNamingConvention"><strong>2.=
+1 Attribute Naming Convention</strong></h2>
+<p>Gold attributes must:</p>
+<ul>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"1=
+81ac31e-f23c-4abf-840a-1fad6f7891db">align to the <span style=3D"color:#c93=
+72c;"><strong>AZ UK EDM</strong></span></li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"9=
+6f4acac-502a-4369-9432-c319a63248ea">use <strong>business semantics</strong=
+>, not source semantics</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"8=
+d57547d-385c-43d1-9cee-fc099a61cce9">harmonise multi-source input fields</l=
+i>
+</ul>
+<h1 id=3D"GoldLayerNamingStandards-2.3NamingRuleSets"><strong>2.3 Naming Ru=
+le Sets</strong></h1>
+<h2 id=3D"GoldLayerNamingStandards-2.3.1CommonRules"><strong>2.3.1 Common R=
+ules</strong></h2>
+<ul>
+ <li data-uuid=3D"5a3624c1-b063-4e45-83d4-7d7807ab208e"><span style=3D"colo=
+r:#172b4d;"><a href=3D"https://cmp.allianz.net/pages/viewpage.action?pageId=
+=3D1753831232#InstandaProductDataConfigurationandGovernance-DataAttributeNa=
+mingConvention" rel=3D"nofollow">https://cmp.allianz.net/pages/viewpage.act=
+ion?pageId=3D1753831232#InstandaProductDataConfigurationandGovernance-DataA=
+ttributeNamingConvention</a></span></li>
+ <li data-uuid=3D"1a1d8e1b-e9d6-4f06-b833-1a475e6eb87e">Shareable across bu=
+siness</li>
+ <li data-uuid=3D"07bfce59-d8d2-460b-a967-ed2f6b538da9">No system-specific =
+wording</li>
+ <li style=3D"color:#c9372c;" data-uuid=3D"3573b046-5ff9-4374-9337-ee9b0744=
+9857"><span style=3D"color:#c9372c;">Acronyms only if industry-standard (IS=
+IC, VAT..)</span></li>
+</ul>
+<hr>
+<h2 id=3D"GoldLayerNamingStandards-2.3.2LogicalAttributeNaming(GoldLayer)">=
+<strong>2.3.2 Logical Attribute Naming (Gold Layer)</strong></h2>
+<p><br>
+  All columns must use:</p>
+<ul>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"c=
+5fbca7d-ea86-4326-bd60-f9c52892e052">Business terminology</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"f=
+e4bb776-ce35-4e62-ac0a-10debc5f0836">
+  <p>Unabbreviated terms preferred</p></li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"c=
+d83e393-5679-40fa-8d68-89275ea86a03">
+  <p>Align with glossary names where possible</p></li>
+</ul>
+<p><br></p>
+<h2 id=3D"GoldLayerNamingStandards-2.3.3PhysicalRuleSet(Databricks)"><stron=
+g>2.3.3 Physical Rule Set (Databricks)</strong></h2>
+<h3 id=3D"GoldLayerNamingStandards-Tables"><strong>Tables</strong></h3>
+<ul>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"9=
+9e30a40-5130-4b55-8733-723a4d957ecb">Lowercase names</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"a=
+ec147c7-059a-4662-a37a-cf64f21de9cf">Prefixes applied (<code>dim_</code>, <=
+code>fct_</code>, <code>brg_</code>)</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"1=
+d21de4b-2e32-4712-be15-67685cf6ea26">Words separated by underscores</li>
+</ul>
+<p><br></p>
+<h1 id=3D"GoldLayerNamingStandards-2.4LogicalObjectsinGoldLayer"><strong>2.=
+4 Logical Objects in Gold Layer</strong></h1>
+<h2 id=3D"GoldLayerNamingStandards-2.4.1DataModel"><strong>2.4.1 Data Model=
+</strong></h2>
+<p><br>
+  Represented as dimensional models (facts, dimensions, bridges).</p>
+<h2 id=3D"GoldLayerNamingStandards-2.4.2SubjectArea"><strong>2.4.2 Subject =
+Area</strong></h2>
+<ul>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"c=
+84775b4-cec7-4e18-825d-f05b704ae740">Policy</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"8=
+802e02e-c4ea-4c0b-b3ee-6e1b50c3da6f">Customer</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"3=
+270f02c-9b4c-4327-acb1-00cdc62fcdb1">Claims</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"1=
+b4aba27-934e-4a18-96aa-4d2a9ac596b7">Pricing</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"f=
+a3df4bc-6d84-42b5-997c-8b6200b32882">Booking</li>
+</ul>
+<h2 id=3D"GoldLayerNamingStandards-2.4.3Entities"><strong>2.4.3 Entities</s=
+trong></h2>
+<ul>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"6=
+e6fc260-cf7a-4ac9-9c86-7a225b4b6469">Dim_ tables represent entities</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"a=
+9495866-e08e-4ed3-9ec4-afa6dfb8f617">Fact tables represent business events/=
+measures</li>
+</ul>
+<h2 id=3D"GoldLayerNamingStandards-2.4.4LogicalViews"><strong>2.4.4 Logical=
+ Views</strong></h2>
+<p><br>
+  Used for semantic presentation models</p>
+<h2 id=3D"GoldLayerNamingStandards-2.4.5Attribute"><strong>2.4.5 Attribute<=
+/strong></h2>
+<p><br>
+  Follows SubjectQualifierLogicalDataType</p>
+<h2 id=3D"GoldLayerNamingStandards-2.4.6Relationship"><strong>2.4.6 Relatio=
+nship</strong></h2>
+<p><br>
+  Verb phrases like:</p>
+<ul>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"5=
+9b75958-ce65-405f-8792-300597a29ead">Policy <strong>has</strong> InsuredEnt=
+ity</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"e=
+72ee1ae-48f9-4613-9d07-c1aaec7b9962">Customer <strong>owns</strong> Policy<=
+/li>
+</ul>
+<h1 id=3D"GoldLayerNamingStandards-3PhysicalDataModelNamingStandards"><stro=
+ng>3 Physical Data Model Naming Standards</strong></h1>
+<h1 id=3D"GoldLayerNamingStandards-3.1TableNamePrefixes"><strong>3.1 Table =
+Name Prefixes</strong></h1>
+<p><br></p>
+<p><br></p>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table confluenceTable" style=3D"width: 70.4855%;"=
+>
+  <colgroup>
+   <col style=3D"width: 9.72841%;">
+   <col style=3D"width: 38.7278%;">
+   <col style=3D"width: 14.1898%;">
+   <col style=3D"width: 15.739%;">
+   <col style=3D"width: 21.6305%;">
+  </colgroup>
+  <tbody class=3D"">
+   <tr class=3D"">
+    <th class=3D"confluenceTh"><strong>Object Type</strong></th>
+    <th class=3D"confluenceTh"><strong>Definition</strong></th>
+    <th class=3D"confluenceTh"><strong>Prefix</strong></th>
+    <th class=3D"confluenceTh"><strong>Example Table Name</strong></th>
+    <th class=3D"confluenceTh"><strong>Example </strong></th>
+   </tr>
+   <tr class=3D"">
+    <th class=3D"confluenceTh"><strong>Fact Table</strong></th>
+    <td class=3D"confluenceTd">A fact table contains <em>measures</em> and =
+<em>foreign keys</em> to dimensions. It represents a <strong>business event=
+</strong>, <strong>transaction</strong>, <strong>snapshot</strong>, or <str=
+ong>process</strong> at a defined grain. Facts answer questions like <em>=
+=E2=80=9CWhat happened?=E2=80=9D</em> or <em>=E2=80=9CHow much?=E2=80=9D</e=
+m>.</td>
+    <td class=3D"confluenceTd"><code>fct_</code></td>
+    <td class=3D"confluenceTd"><code>fct_policy_premium</code></td>
+    <td class=3D"confluenceTd">Stores premium-related measures for each pol=
+icy at the chosen grain (e.g., per policy per transaction).</td>
+   </tr>
+   <tr class=3D"">
+    <th class=3D"confluenceTh"><strong>Dimension Table</strong></th>
+    <td class=3D"confluenceTd">A dimension table defines <strong>business e=
+ntities</strong>, providing <strong>context</strong> and descriptive attrib=
+utes that enrich fact tables. Dimensions answer <em>=E2=80=9CWho?=E2=80=9D<=
+/em>, <em>=E2=80=9CWhat?=E2=80=9D</em>, <em>=E2=80=9CWhere?=E2=80=9D</em>, =
+<em>=E2=80=9CWhen?=E2=80=9D</em> questions. Includes surrogate/hash key, at=
+tributes, and audit fields.</td>
+    <td class=3D"confluenceTd"><code>dim_</code></td>
+    <td class=3D"confluenceTd"><code>dim_customer</code></td>
+    <td class=3D"confluenceTd">Holds customer-related attributes (PolicySta=
+rtDate, ClaimsStatusCode, etc.) used to filter, group, and join facts.</td>
+   </tr>
+   <tr class=3D"">
+    <th class=3D"confluenceTh"><strong>Bridge Table</strong></th>
+    <td class=3D"confluenceTd">A bridge table resolves <strong>many=E2=80=
+=91to=E2=80=91many relationships</strong> between a fact and a dimension or=
+ between two dimensions. Used when a fact links to multiple dimension value=
+s, or where two dimensions have many-to-many relationships.</td>
+    <td class=3D"confluenceTd"><code>brg_</code></td>
+    <td class=3D"confluenceTd"><code>brg_rating_quote_result</code></td>
+    <td class=3D"confluenceTd">Connects rating quotes to multiple underwrit=
+ing results (many=E2=80=91to=E2=80=91many). Contains RatingQuoteKey, UndwgR=
+esultKey, audit fields, and optional context attributes.</td>
+   </tr>
+   <tr class=3D"">
+    <th class=3D"confluenceTh"><strong>Aggregation Table</strong></th>
+    <td class=3D"confluenceTd">An aggregation table stores <strong>pre=E2=
+=80=91summarised metrics</strong> for improved performance and ease of use.=
+ Helps reduce compute on large fact tables by presenting business-level sum=
+maries (daily, monthly, policy-level, etc.).</td>
+    <td class=3D"confluenceTd"><code>&lt;subject&gt;_agg</code></td>
+    <td class=3D"confluenceTd"><code>policy_premium_agg</code></td>
+    <td class=3D"confluenceTd">Contains pre-aggregated premium totals by po=
+licy, time period, and product to speed up reporting and analytics.</td>
+   </tr>
+   <tr class=3D"">
+    <th class=3D"confluenceTh"><strong>Insert View</strong></th>
+    <td class=3D"confluenceTd">Insert views generate the <strong>Gold layer=
+ target structure from Silver</strong>, applying cleansing, conforming, sur=
+rogate key generation, and audit population. One insert view is created per=
+ source feeding a Gold entity.</td>
+    <td class=3D"confluenceTd"><code>vw_ins_&lt;source&gt;_&lt;target&gt;</=
+code></td>
+    <td class=3D"confluenceTd"><code>vw_ins_rad_dim_rating_quote</code></td=
+>
+    <td class=3D"confluenceTd">Loads <code>dim_rating_quote</code> from Rad=
+ar Silver tables, applying hashing, transformations, and DWH audit columns.=
+</td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p><br></p>
+<h1 id=3D"GoldLayerNamingStandards-3.2DimensionTables"><strong>3.2 Dimensio=
+n Tables</strong></h1>
+<h3 id=3D"GoldLayerNamingStandards-Requiredcolumns">Required columns</h3>
+<ol>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"5=
+502d216-e47c-422c-9c2e-119e39d330f0"><code>&lt;DimensionName&gt;Key</code> =
+=E2=80=94 surrogate hash key</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"7=
+1488f3f-d44b-4220-a148-4ae82235b95a">Business attributes (SubjectQualifierL=
+ogicalDataType)</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"0=
+904edb7-a4d7-4fd5-9f5d-f41b742ff36a">Optional SCD fields</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"b=
+b7c5126-3f81-4fa8-816f-b630a2bdee6d">Required audit columns</li>
+</ol>
+<h3 id=3D"GoldLayerNamingStandards-Dimensiontypes">Dimension types</h3>
+<ul>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"d=
+beaa068-35a4-4d80-a186-ebbc1127d846"><strong>Data Driven Dimension</strong>=
+</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"9=
+11df071-5a0f-4335-a113-14f6e316fb5b"><strong>Reference Dimension</strong></=
+li>
+</ul>
+<h3 id=3D"GoldLayerNamingStandards-SCDFields">SCD Fields</h3>
+<p><br>
+  Used depending on SCD type:</p>
+<ul>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"2=
+9550e6e-5722-4639-b47a-73c68dad74e9"><code>DWH_EFCTV_DTS</code></li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"c=
+b26e780-f08f-4dce-89a6-80759040ec13"><code>DWH_EXPTN_DTS</code></li>
+</ul>
+<h3 id=3D"GoldLayerNamingStandards-RequiredAuditColumns">Required Audit Col=
+umns</h3>
+<ul>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"3=
+ce700ca-6fd2-4080-afa4-33f7b9631950"><code>DWH_DATA_DTS</code></li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"8=
+9b564f0-fdc3-410e-bae4-96bb84b06061"><code>DWH_CREATE_DTS</code></li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"2=
+ef6c311-455b-4a3e-8ac8-a50eb0855fed"><code>DWH_UPDATE_DTS</code></li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"a=
+ca2cb93-f753-445f-8445-7504c65cec7a"><code>DWH_REC_SRCE_CD</code></li>
+</ul>
+<hr>
+<h1 id=3D"GoldLayerNamingStandards-3.3BridgeTables"><strong>3.3 Bridge Tabl=
+es</strong></h1>
+<h3 id=3D"GoldLayerNamingStandards-Fact-to-DimensionBridge">Fact-to-Dimensi=
+on Bridge</h3>
+<ul>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"0=
+b76f654-62b5-40da-9e19-0fdbd65d78d3"><code>&lt;BridgeName&gt;Key</code></li=
+>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"a=
+ae93a49-b70c-459b-a3ea-04831615141a"><code>&lt;DimensionName&gt;Key</code><=
+/li>
+</ul>
+<h3 id=3D"GoldLayerNamingStandards-Dimension-to-DimensionBridge">Dimension-=
+to-Dimension Bridge</h3>
+<ul>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"d=
+10c7f46-5d71-4263-985a-78d561c6b4b7">Foreign key 1</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"5=
+c2a869a-8cfd-4cb3-8780-87b6f979086a">Foreign key 2</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"c=
+1f024f4-54ce-4932-ae39-7bb2d3512373">Context attributes (optional)</li>
+</ul>
+<p><br>
+  All bridges include audit fields.</p>
+<hr>
+<h1 id=3D"GoldLayerNamingStandards-3.4FactTables"><strong>3.4 Fact Tables</=
+strong></h1>
+<h3 id=3D"GoldLayerNamingStandards-Prefix">Prefix</h3>
+<p><br><code>fct_</code></p>
+<h3 id=3D"GoldLayerNamingStandards-Requiredfields">Required fields</h3>
+<ul>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"9=
+a7248c2-f887-40b7-8563-bd95f444722f"><code>FCT_HASH_KEY</code></li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"f=
+7dbd9b4-23a9-4cf8-b111-1f502f209fbf">All dimension foreign keys</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"6=
+c665152-692a-4535-90e3-631bb8ac116a">All measures (SubjectQualifierLogicalD=
+ataType)</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"c=
+c8f7a1e-7a3b-47fb-acfa-50f914aa08b6">Audit fields</li>
+</ul>
+<h3 id=3D"GoldLayerNamingStandards-Facttypes">Fact types</h3>
+<ul>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"0=
+af6e68e-e5a3-448e-816a-4a2294131fa8">Transaction</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"b=
+99a8438-270b-486b-9548-35652eb7c2fa">Periodic snapshot</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"c=
+49e067a-ec2a-4191-8459-4d5b87eeb797">Accumulating snapshot</li>
+</ul>
+<hr>
+<h1 id=3D"GoldLayerNamingStandards-SnowflakingRules"><strong>Snowflaking Ru=
+les</strong></h1>
+<p><br>
+  Used where:</p>
+<ul>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"7=
+17cf476-536a-4df1-a5c0-b877cf8acb4a">Multiple entity subtypes exist</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"1=
+9b2e559-141d-4610-9b01-b24051fcdefd">Minimising foreign keys in facts</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"e=
+53430d3-757c-4112-8b2e-e28beb72a8e3">Creating reusable dimension structures=
+</li>
+</ul>
+<p><br>
+  Example:</p>
+<ul>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"f=
+d752f4b-311a-4a14-a9a2-89c7785db066"><code>dim_insured_object</code></li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"6=
+3017593-d4d8-4b55-bf6e-f5627cf96c70"><code>dim_insured_object_property</cod=
+e></li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"5=
+fa764e6-a8a3-47a8-a9e8-58a5ffb587e4"><code>dim_insured_object_vehicle</code=
+></li>
+</ul>
+<p><br></p>
+<h1 id=3D"GoldLayerNamingStandards-InsertViews"><strong>Insert Views</stron=
+g></h1>
+<p><code><br>
+   Format:</code></p>
+<pre><code>vw_ins_&lt;source&gt;_&lt;destination_table&gt;
+</code></pre>
+<p><code><br>
+   Examples:</code></p>
+<ul>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"0=
+038c830-f464-4472-8b3d-43a37415b8c0"><code>vw_ins_dim_transaction_type</cod=
+e></li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"d=
+898077c-26e7-40bd-b2b6-0c4c4b4d7742"><code>vw_ins_cqs_dim_rating_quote</cod=
+e></li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"2=
+28ce499-9102-4b40-a7a1-5325c448ef92"><code>vw_ins_cqs_fct_rating_insured_ob=
+ject_cover_options_trans</code></li>
+</ul>
+<p><br></p>
+<hr>
+<p><br></p>
+<h1 id=3D"GoldLayerNamingStandards-PerformanceGuidelines"><strong>Performan=
+ce Guidelines</strong></h1>
+<p><br></p>
+<h3 id=3D"GoldLayerNamingStandards-DeltaLakerecommendations">Delta Lake rec=
+ommendations</h3>
+<p><br></p>
+<ul>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"3=
+26495fb-66c9-4702-8f8c-e2ee6172f0d7">Z-Order on FK columns</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"e=
+d83850f-f2f4-463a-9ef1-9b937fc039ca">Limit Z-order columns to =E2=89=A4 4</=
+li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"8=
+5696b64-df1c-4a74-a1f2-d55884f2319d">OPTIMIZE after loads</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"f=
+c9005f3-1ae1-4a7d-b735-3ddef80d1ea7">Target file size: 32=E2=80=93128 MB</l=
+i>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"d=
+6af4f2f-2836-49bb-9686-74d767d4e1ac">ANALYZE TABLE for statistics</li>
+</ul>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_22168_1608756003.1769443754013--

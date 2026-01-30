@@ -1,0 +1,994 @@
+Date: Mon, 26 Jan 2026 17:08:59 +0100 (CET)
+Message-ID: <1938918787.22167.1769443739492@cmp-prod.allianz.net>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_22166_707344242.1769443739469"
+
+------=_Part_22166_707344242.1769443739469
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Enterprise Data Naming Standards</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Enterprise Data Naming Standards</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"EnterpriseDataNamingStandards-1.Purpose"><strong>1. Purpo=
+se</strong></h2>
+<p><br>
+  This page defines the <strong>enterprise-wide naming conventions</strong>=
+ for all data modelling layers within the Allianz Data Platform (ADP).<br>
+  It ensures consistent, readable, and platform=E2=80=91independent naming =
+across:</p>
+<ul>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"8=
+fb5a3f6-f227-4230-a49f-2f0a7b5bc48a">Operational Data Store (ODS)</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"a=
+76683b1-601e-4804-af6c-5e3be68539e8">Silver layer</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"0=
+98f5e74-794f-432f-b480-ba414af71333">Gold layer</li>
+</ul>
+<p><br>
+  All sub=E2=80=91pages inherit these core principles.</p>
+<hr>
+<h2 id=3D"EnterpriseDataNamingStandards-2.GuidingPrinciples"><strong>2. Gui=
+ding Principles</strong></h2>
+<p><br>
+  These principles apply to <strong>all layers</strong>, unless explicitly =
+overridden in the layer-specific subpages.</p>
+<h3 id=3D"EnterpriseDataNamingStandards-2.1Clarity"><strong>2.1 Clarity</st=
+rong></h3>
+<p><br>
+  Names must be descriptive, unambiguous, and immediately understandable by=
+ business and technical users.</p>
+<h3 id=3D"EnterpriseDataNamingStandards-2.2Consistency"><strong>2.2 Consist=
+ency</strong></h3>
+<p><br>
+  Follow the same construction rules across all layers.<br>
+  Each object name should follow a recognisable pattern.</p>
+<h3 id=3D"EnterpriseDataNamingStandards-2.3Simplicity"><strong>2.3 Simplici=
+ty</strong></h3>
+<p><br>
+  Avoid unnecessary complexity, jargon, or processing metadata in names.</p=
+>
+<h3 id=3D"EnterpriseDataNamingStandards-2.4Platform-neutral"><strong>2.4 Pl=
+atform-neutral</strong></h3>
+<p><br>
+  Naming must not encode physical implementation details such as datatype, =
+DB technology, or source system encoding.</p>
+<h3 id=3D"EnterpriseDataNamingStandards-2.5CaseConvention"><strong>2.5 Case=
+ Convention</strong></h3>
+<ul>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"3=
+809add6-39b3-4471-8ae4-ec367d3d1cea"><strong>ODS Layer</strong>: PascalCase=
+ (inherits source system conventions)</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"9=
+0098bf2-bc7c-4b04-b3e9-28ca27618ff4"><strong>Silver / Raw Vault / BDV</stro=
+ng>:</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"6=
+8c3265d-dabe-4c8b-a8a3-76a3f9ac714d"><strong>Gold Layer</strong>: PascalCas=
+e (semantic model aligned to CFM)</li>
+</ul>
+<h3 id=3D"EnterpriseDataNamingStandards-2.6WordConstructionRules"><strong>2=
+.6 Word Construction Rules</strong></h3>
+<p><br><br></p>
+<hr>
+<h2 id=3D"EnterpriseDataNamingStandards-3.NamingStructureforAttributes"><st=
+rong>3. Naming Structure for Attributes</strong></h2>
+<p><br>
+  All business attributes follow this structure:</p>
+<h3 id=3D"EnterpriseDataNamingStandards-Subject+Qualifier(s)+Logicaldatatyp=
+e"><strong>Subject+ Qualifier(s) + Logical data type</strong></h3>
+<p><br></p>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped confluenceTable">
+  <tbody class=3D"">
+   <tr class=3D"">
+    <th class=3D"confluenceTh">Component</th>
+    <th class=3D"confluenceTh">Description</th>
+    <th class=3D"confluenceTh">Example</th>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">Subject</td>
+    <td class=3D"confluenceTd">Main business entity</td>
+    <td class=3D"confluenceTd">Policy</td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">Qualifier(s)</td>
+    <td class=3D"confluenceTd">Additional context</td>
+    <td class=3D"confluenceTd">Renewal</td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">Logical data type</td>
+    <td class=3D"confluenceTd">Defines data category</td>
+    <td class=3D"confluenceTd">Date</td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p><br><strong>Example Attribute Name:</strong><br><code>PolicyRenewalDate<=
+/code></p>
+<hr>
+<h2 id=3D"EnterpriseDataNamingStandards-4.ClassWords"><strong>4. Class Word=
+s</strong></h2>
+<p><br></p>
+<hr>
+<h2 id=3D"EnterpriseDataNamingStandards-5.TableNamingStandards"><strong>5. =
+Table Naming Standards</strong></h2>
+<h3 id=3D"EnterpriseDataNamingStandards-5.1ODSTables"><strong>5.1 ODS Table=
+s</strong></h3>
+<p><br>
+  Follow operational convention (usually PascalCase) =E2=80=94 see subpage.=
+</p>
+<h3 id=3D"EnterpriseDataNamingStandards-5.2SilverLayer"><strong>5.2 Silver =
+Layer</strong></h3>
+<p><br>
+  Use <strong>SILVER_</strong> or domain-based prefixes.</p>
+<h3 id=3D"EnterpriseDataNamingStandards-5.3RawVault/BusinessVault"><strong>=
+5.3 Raw Vault / Business Vault</strong></h3>
+<p><br>
+  Follow DV2.0 standards:</p>
+<ul>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"1=
+d356b30-2fa4-4007-b768-5ccac90bbce6"><code>HUB_&lt;entity&gt;</code></li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"3=
+ee4863d-0bdb-4612-b023-beeb64c1a3f5"><code>LNK_&lt;relationship&gt;</code><=
+/li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"d=
+27a291e-32a0-436d-ac22-8bf54fdbd4f8"><code>SAT_&lt;context&gt;</code></li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"4=
+c8690de-05e8-4d0a-a951-dd2a7b539642">HashKey and HashDiff conventions</li>
+</ul>
+<h3 id=3D"EnterpriseDataNamingStandards-5.4GoldLayer"><strong>5.4 Gold Laye=
+r</strong></h3>
+<p><br>
+  Follow semantic consumption naming (see subpage):</p>
+<ul>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"7=
+4a5261a-6815-47bf-9713-1c51420db54d"><code>F_&lt;BusinessProcess&gt;</code>=
+</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"c=
+a227922-610a-49e6-979f-888df01f8fd0"><code>D_&lt;BusinessConcept&gt;</code>=
+</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"3=
+ca68806-46d5-4e77-9683-97fe604a35e7"><code>V_&lt;SemanticView&gt;</code></l=
+i>
+</ul>
+<hr>
+<h2 id=3D"EnterpriseDataNamingStandards-6.Abbreviations"><strong>6. Abbrevi=
+ations</strong></h2>
+<ul>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"b=
+5e34712-0b31-4533-b81b-2573429e27e2">Use full words unless length limits re=
+quire abbreviation.</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"7=
+6aad638-165c-4870-bb39-323f4dbf4b84">Acronyms UPPER CASE.</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"e=
+9057436-050d-4558-918a-b4d577c6f495">All abbreviations must be taken from t=
+he <strong>Master Abbreviation List</strong>.</li>
+ <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=3D"8=
+62dff2e-faa8-469f-a0ee-ab6ca4ce9f81">No creating new local abbreviations wi=
+thout governance approval.</li>
+</ul>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<h1 id=3D"EnterpriseDataNamingStandards-DataAttributeNamingConvention">Data=
+ Attribute Naming Convention</h1>
+<p>The goal of this naming convention is to ensure clarity, consistency, an=
+d alignment with data principles across all data attributes</p>
+<h2 id=3D"EnterpriseDataNamingStandards-GuidingPrinciples">Guiding Principl=
+es</h2>
+<ol>
+ <li data-uuid=3D"87c2c863-bc9a-47c0-a107-034efc670a00">Clarity: Names shou=
+ld be self-explanatory, readily understood by both technical and non-techni=
+cal personnel.</li>
+ <li data-uuid=3D"89bc3bac-9373-4a4a-9d5b-9100fc223cb3">Consistency: Adhere=
+ to a uniform pattern across all data elements.</li>
+ <li data-uuid=3D"1ee37f97-4093-4a03-9255-c366553c4cec">Case Sensitivity: A=
+dhere to a consistent case convention - PascalCase</li>
+ <li data-uuid=3D"1e02afe4-28af-4a0a-9703-c7e8542586c0">Specificity: Naming=
+ must be specific to the data point and incorporate details regarding the p=
+urpose or context of the data element.</li>
+ <li data-uuid=3D"012d9af7-022e-45d9-8f5c-32e35be98086">Brevity: Strive for=
+ concise names while preserving clarity.</li>
+ <li data-uuid=3D"669118a8-99b1-4807-81ef-14ccb6033dc9">Context: Acknowledg=
+e the interconnected nature of our systems when naming data elements to ens=
+ure seamless integration and avert conflicts.</li>
+ <li data-uuid=3D"3f0cc3d2-ef46-42cc-8924-2d75b976020e">Data Category Inclu=
+sion: To be included in the data catalogue ONLY.</li>
+</ol>
+<p><br></p>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table confluenceTable" style=3D"width: 1494.36px;=
+">
+  <colgroup class=3D"">
+   <col class=3D"" style=3D"width: 381.27px;">
+   <col class=3D"" style=3D"width: 391.543px;">
+   <col class=3D"" style=3D"width: 270.645px;">
+   <col class=3D"" style=3D"width: 420.371px;">
+   <col class=3D"" style=3D"width: 29.2773px;">
+  </colgroup>
+  <tbody class=3D"">
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <h6 id=3D"EnterpriseDataNamingStandards-1.PascalCase:">1. PascalCase:<=
+/h6>
+     <p>Variable name must be in PascalCase (i.e., the first letter of ever=
+y word should be capitalized).</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><br></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-success conf-m=
+acro output-inline" style=3D"text-decoration: none;color:#000000;" data-has=
+body=3D"false" data-macro-name=3D"status">GREEN</span></p>
+     </div></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><br></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><br></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <h6 id=3D"EnterpriseDataNamingStandards-2.Variablename:"><span style=
+=3D"color:#172B4D;">2. Variable name:</span></h6>
+     <p><span style=3D"color:#172B4D;">This describes the data. It should b=
+e self-explanatory, readily understood by both technical and non-technical =
+personnel.&nbsp;</span></p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><br></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-success conf-m=
+acro output-inline" style=3D"text-decoration: none;color:#000000;" data-has=
+body=3D"false" data-macro-name=3D"status">GREEN</span></p>
+     </div></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>The strategic direction that DA team wants to proceed in is the cre=
+ation, usage and<span>&nbsp;</span>alignment<span>&nbsp;</span>to an attrib=
+uted CFM model(including derived fields).&nbsp;</p>
+     <p>If a new attribute is required, best practice is to follow the form=
+at SubjectQualifierDatatype.</p>
+     <p>eg. PolicyInceptionDate</p>
+     <ol>
+      <li data-uuid=3D"dc8fc35e-6e3a-4e54-9b9d-bb273b38bce3">
+       <p><strong>Subject</strong>: This is the main entity that the data a=
+ttribute is about. It typically represents the primary object or entity in =
+the context of the business domain. "Policy" is the subject because the att=
+ribute pertains to a policy.</p></li>
+      <li data-uuid=3D"c052d045-be3b-4d35-98b8-746012ab109a">
+       <p><strong>Qualifier</strong>: This provides additional context or s=
+pecificity to the subject.&nbsp; "Inception" is the qualifier because it sp=
+ecifies that the date is related to the inception (start) of the policy.</p=
+></li>
+      <li data-uuid=3D"00c753fd-eef5-4b1d-9514-a0761c4db1f3">
+       <p><strong>Logical DataType</strong>: This denotes the type of data =
+the attribute holds, such as Date, Number, Text, etc.&nbsp; "Date" is impli=
+citly understood as the data type.<span>&nbsp;</span><u><strong>Please note=
+, physical datatype (eg Varchar, Integer, Bit etc.) should not be considere=
+d while naming the attributes.</strong></u></p></li>
+     </ol>
+     <p><span>Please refer to the&nbsp;</span><strong>Master Abbreviations*=
+*</strong><span>&nbsp;list mentioned at the bottom of this page</span></p>
+     <p><br></p>
+     <p><strong>Including the logical data type as a suffix with an undersc=
+ore delimiter(e.g., _PCT, _NMBR) is acceptable when it improves readability=
+ and prevents ambiguity, especially in cases where the attribute name alone=
+ does not make the data type obvious.</strong></p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><br></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <div class=3D"content-wrapper">
+      <h6 id=3D"EnterpriseDataNamingStandards-3.IntegrationSpecificattribut=
+es[INSTANDASpecific]"><span style=3D"color:#172B4D;">3. Integration Specifi=
+c attributes [INSTANDA Specific]</span></h6>
+      <p><span style=3D"color:#172B4D;">Format:<strong>[Direction*]_[System=
+/Microservice**]_[Description]</strong></span></p>
+      <p><span style=3D"color:#172B4D;">This is proposed by Product config =
+team specifically for ALL integration attributes within the INSTANDA platfo=
+rm. For each integration, existing attributes will be replicated/ new attri=
+butes will be created&nbsp;</span></p>
+      <p><span style=3D"color:#172B4D;"><strong>Direction</strong>: This de=
+fines whether data is intended to be published (IN) to an integrated system=
+ or (OUT) from an integrated system.</span><span>&nbsp;</span><span style=
+=3D"color:#172B4D;">&nbsp;Section 1 of the Variable name must be created in=
+ CAPITALS (i.e., "IN_" / "OUT_").</span></p>
+      <p><span style=3D"color:#172B4D;"><strong>System/Microservice</strong=
+>: Defines the target or source system that data is intended to be publishe=
+d (IN) to an integrated system or (OUT) from an integrated system.</span></=
+p>
+      <p><span style=3D"color:#172B4D;"><strong>Description</strong>: Descr=
+ibes the data attribute.</span></p>
+      <p><br></p>
+      <p><span style=3D"color:#172B4D;">This is applicable to attributes th=
+at fall in categories-&nbsp; 5.a, 5a.i and 5.b.&nbsp;</span><span>&nbsp;</s=
+pan><span>Any attributes needed for the data platform, product config team =
+proposed to create an additional attribute without the IN_/OUT_ prefix.</sp=
+an></p>
+      <p><br></p>
+     </div></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <div class=3D"content-wrapper">
+      <p><br></p>
+      <p>In INSTANDA, product configurators are required to configure integ=
+ration-specific attributes and maintain distinct&nbsp;<a class=3D"external-=
+link" href=3D"https://learn.microsoft.com/en-gb/azure/logic-apps/logic-apps=
+-enterprise-integration-liquid-transform?tabs=3Dconsumption&amp;source=3Ddo=
+cs" rel=3D"nofollow" style=3D"">liquid template</a>s for each integration. =
+The direction prefix aids in tracking attribute dependencies, while the sys=
+tem/microservice component provides context for which integration the attri=
+bute is utilized.</p>
+      <p>Since interfaces are designed based on the specifications of the t=
+arget system (interface contracts) that are still evolving, there have been=
+ instances where changes in the interface contract have necessitated the re=
+configuration of attributes (such as EPC requirements and Contract/Booking =
+payload).</p>
+      <p><strong>Implications:<span>&nbsp;</span></strong><span>Attributes =
+must be duplicated, resulting in data redundancy within INSTANDA. However, =
+as this does not affect INSTANDA's performance, the Product Config team pre=
+fers this method.</span></p>
+      <p><span>It ensures the stability of liquid templates, and if any int=
+erface contract changes occur over time, only the relevant attributes need =
+modification, avoiding a comprehensive impact analysis and extensive produc=
+t configuration changes.</span></p>
+      <p><span style=3D"color:#09326C;">This advantage does not extend to c=
+onstants within a package, which remain unchanged across integrations. Ther=
+efore, it has been decided that constants can be exempted from adhering to =
+this naming convention.</span></p>
+      <p><span style=3D"color:#09326C;">Integration attributes classified a=
+s constants should be tagged in the Data Dictionary to ensure a consistent =
+approach is applied across all packages.</span></p>
+      <p><span>&nbsp;</span></p>
+     </div></td>
+    <td class=3D"highlight-#fff0b3 confluenceTd" data-highlight-colour=3D"#=
+fff0b3" style=3D"text-align: left;vertical-align: top;">
+     <div class=3D"content-wrapper" title=3D"">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-moved conf-mac=
+ro output-inline" style=3D"text-decoration: none;color:#172B4D;" data-hasbo=
+dy=3D"false" data-macro-name=3D"status">YELLOW</span></p>
+      <p>Attribute names should convey only the inherent meaning of the dat=
+a, not information related to processing or usage. To ensure consistency ac=
+ross the ecosystem and stability as data pathways evolve,<strong><span>&nbs=
+p;</span>it is advisable to avoid including directional information (such a=
+s IN and OUT) in attribute names. Including such information can lead to in=
+consistency and confusion, especially if the direction of data flow changes=
+, such as when data mastership is altered.</strong></p>
+     </div></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <ol>
+      <li data-uuid=3D"e6cec59f-7126-4f00-8e5f-63673ccbcd29"><span style=3D=
+"color:#172B4D;">"<span>System/Microservice" name needs to be standardized&=
+nbsp; values captured in RDM repository</span></span></li>
+      <li data-uuid=3D"2d401739-e0c5-420c-838a-0cb69c88a7a6"><span style=3D=
+"color:#172B4D;">For the ODS creation, avoid data redundancy by reusing exi=
+sting attributes from CFM whenever possible.</span></li>
+      <li data-uuid=3D"ed360163-869b-45f3-aa70-d1079e372053">IN_/&nbsp;OUT_=
+ pref<span style=3D"color:#172B4D;">ix</span><span>&nbsp;</span>w<span styl=
+e=3D"color:#172B4D;">ould be removed while creating the views. eg. IN_Radar=
+_QuoteSubId would become Radar_QuoteSubId.</span></li>
+     </ol></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><br></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <h6 id=3D"EnterpriseDataNamingStandards-4.ProductCode:"><span style=3D=
+"color:#172B4D;">4. Product Code:</span></h6>
+     <p><span style=3D"color:#172B4D;">When the variable name defines data =
+that is unique to a single defined product and requires a Product ID, the P=
+roduct Code can be used, i.e., "_BX" at the end of the variable name. Note:=
+ This applies to variables that have been confirmed as unique only, and onl=
+y used as an exception.</span></p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><br></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-success conf-m=
+acro output-inline" style=3D"text-decoration: none;color:#000000;" data-has=
+body=3D"false" data-macro-name=3D"status">GREEN</span>&nbsp;</p>
+     </div></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Since it is difficult to assess the reusability(eg. for Clauses)., it w=
+as agreed that this would be done on exception basis in alignment with DA t=
+eam.</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><br></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <h6 id=3D"EnterpriseDataNamingStandards-5.DataType">5. Data Type</h6>
+     <p>Where data is only used within Instanda and regardless of whether t=
+he variable comes from a Question or a Calculation, the output format (data=
+ type) is what we are interested in because it affects how we can use the v=
+ariable within other variables. For example, it helps prevent the user from=
+ trying to carry out an impossible calculation such as trying to multiply a=
+ number with a date.</p>
+     <p><br></p>
+     <p><span style=3D"color:#172B4D;">&nbsp;</span></p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><br></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-success conf-m=
+acro output-inline" style=3D"text-decoration: none;color:#000000;" data-has=
+body=3D"false" data-macro-name=3D"status">GREEN</span></p>
+     </div></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <div class=3D"content-wrapper">
+      <p class=3D"title conf-macro-render">Recommedation:</p>
+      <p>The list of abbreviations need to be mastered in a repository for =
+re-use.</p>
+      <p>Data modelling best practice is to include data types as a<span>&n=
+bsp;</span><em>suffix</em>, not a prefix e.g "Loss Notification<span>&nbsp;=
+</span><strong>Date</strong>".</p>
+     </div></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><br></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p><br></p>
+<p><strong>**Master Abbreviations<br><br></strong>(<em>Please note, the fol=
+lowing list has been discussed in Instanda COE - data attribute governance =
+forum on<span>&nbsp;</span></em><span><time datetime=3D"2025-11-13" class=
+=3D"date-past">13 Nov 2025</time></span><em><span>&nbsp;</span>and is good =
+to start. This list can evolve further based on suggestions for improvement=
+s. Also, alignment to the list while configuring the attributes on Instanda=
+ will be a fix forward approach and this wont impact the existing attribute=
+s/variables already configured.</em></p>
+<p><em>Stakeholders consulted:</em></p>
+<ul>
+ <li data-uuid=3D"b1d8c634-1781-4379-8b4c-1f2ac2661b29"><a class=3D"conflue=
+nce-userlink user-mention" data-username=3D"james.welch@allianz.co.uk" href=
+=3D"/display/~james.welch@allianz.co.uk" data-linked-resource-id=3D"1012809=
+456" data-linked-resource-version=3D"1" data-linked-resource-type=3D"userin=
+fo" data-base-url=3D"https://cmp.allianz.net">Welch, James (Allianz UK)</a>=
+&nbsp;</li>
+ <li data-uuid=3D"c38f2c1a-c55a-4d79-a009-ae763cd59375"><a class=3D"conflue=
+nce-userlink user-mention" data-username=3D"jeffery.watson@allianz.co.uk" h=
+ref=3D"/display/~jeffery.watson@allianz.co.uk" data-linked-resource-id=3D"2=
+46776233" data-linked-resource-version=3D"2" data-linked-resource-type=3D"u=
+serinfo" data-base-url=3D"https://cmp.allianz.net">Watson, Jeff (Allianz UK=
+)</a>&nbsp;</li>
+ <li data-uuid=3D"00b7ca6b-c6a9-4c16-a7bf-9e2ada07cc90"><em><a class=3D"con=
+fluence-userlink user-mention current-user-mention" data-username=3D"dilip.=
+chandrasekharan@allianz.co.uk" href=3D"/display/~dilip.chandrasekharan@alli=
+anz.co.uk" data-linked-resource-id=3D"745341582" data-linked-resource-versi=
+on=3D"2" data-linked-resource-type=3D"userinfo" data-base-url=3D"https://cm=
+p.allianz.net">Chandrasekharan, Dilip (Allianz UK)</a>&nbsp;</em></li>
+ <li data-uuid=3D"03356603-ddff-4529-8f4a-7f64bde50548"><a class=3D"conflue=
+nce-userlink user-mention" data-username=3D"anna.jansen@allianz.co.uk" href=
+=3D"/display/~anna.jansen@allianz.co.uk" data-linked-resource-id=3D"1396749=
+54" data-linked-resource-version=3D"3" data-linked-resource-type=3D"userinf=
+o" data-base-url=3D"https://cmp.allianz.net">Jansen, Anna (Allianz UK)</a>&=
+nbsp;</li>
+ <li data-uuid=3D"2e697c6a-1520-462a-83b3-0b169374e377"><a class=3D"conflue=
+nce-userlink user-mention" data-username=3D"pooja.pant@allianz.co.uk" href=
+=3D"/display/~pooja.pant@allianz.co.uk" data-linked-resource-id=3D"53860736=
+7" data-linked-resource-version=3D"1" data-linked-resource-type=3D"userinfo=
+" data-base-url=3D"https://cmp.allianz.net">Pant, Pooja (Allianz UK)</a>&nb=
+sp;</li>
+ <li data-uuid=3D"4daf1045-096e-4907-9af1-f827fc70557e"><a class=3D"conflue=
+nce-userlink user-mention" data-username=3D"chhavi.zaidu@allianz.co.uk" hre=
+f=3D"/display/~chhavi.zaidu@allianz.co.uk" data-linked-resource-id=3D"13988=
+87715" data-linked-resource-version=3D"1" data-linked-resource-type=3D"user=
+info" data-base-url=3D"https://cmp.allianz.net">Zaidu, Chhavi (Allianz UK)<=
+/a>&nbsp;</li>
+ <li data-uuid=3D"6959cdc4-c8cd-46d2-a668-09a195ddddb0"><a class=3D"conflue=
+nce-userlink user-mention" data-username=3D"jyoti.ranjan@allianz.co.uk" hre=
+f=3D"/display/~jyoti.ranjan@allianz.co.uk" data-linked-resource-id=3D"97035=
+8469" data-linked-resource-version=3D"1" data-linked-resource-type=3D"useri=
+nfo" data-base-url=3D"https://cmp.allianz.net">Ranjan, Jyoti (Allianz UK)</=
+a>&nbsp;</li>
+</ul>
+<p>)</p>
+<div class=3D"table-wrap">
+ <table class=3D"confluenceTable">
+  <tbody class=3D"">
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p><strong>Data Type</strong>&nbsp;</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p><strong>Abbreviation</strong></p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p><strong>Examples</strong></p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"highlight-#fff0b3 confluenceTd" data-highlight-colour=3D"#=
+fff0b3" style=3D"text-align: left;vertical-align: top;">
+     <p title=3D""><s>Text</s><span>&nbsp;</span>Textual description</p></t=
+d>
+    <td class=3D"highlight-#fff0b3 confluenceTd" data-highlight-colour=3D"#=
+fff0b3" style=3D"text-align: left;vertical-align: top;">
+     <p title=3D""><s>TXT</s><span>&nbsp;</span>DESC</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p title=3D""><br></p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"highlight-#fea362 confluenceTd" data-highlight-colour=3D"#=
+fea362" style=3D"text-align: left;vertical-align: top;">
+     <p title=3D""><s>Conditionally displayed text (for documents or conten=
+t pages)</s></p></td>
+    <td class=3D"highlight-#fea362 confluenceTd" data-highlight-colour=3D"#=
+fea362" style=3D"text-align: left;vertical-align: top;">
+     <p title=3D""><s>HTML</s></p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p><br></p></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>Date&nbsp;</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>DATE&nbsp;</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p><br></p></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>Number&nbsp;</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p><s>NUM</s><span>&nbsp;</span>NMBR</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p><br></p></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>Rate&nbsp;(Percent)</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>PCT</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p><br></p></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>Boolean&nbsp;</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>BOOL&nbsp;</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p><br></p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"highlight-#fea362 confluenceTd" data-highlight-colour=3D"#=
+fea362" style=3D"text-align: left;vertical-align: top;">
+     <p title=3D""><s>Choice,&nbsp;Advanced Choice, or Image Choice</s></p>=
+</td>
+    <td class=3D"highlight-#fea362 confluenceTd" data-highlight-colour=3D"#=
+fea362" style=3D"text-align: left;vertical-align: top;">
+     <p title=3D""><s>CHOICE or CH?</s></p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p title=3D""><br></p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"highlight-#fea362 confluenceTd" data-highlight-colour=3D"#=
+fea362" style=3D"text-align: left;vertical-align: top;">
+     <p title=3D""><s>Choice Parent</s></p></td>
+    <td class=3D"highlight-#fea362 confluenceTd" data-highlight-colour=3D"#=
+fea362" style=3D"text-align: left;vertical-align: top;">
+     <p title=3D""><s>CHOICEP or CHP?</s></p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p title=3D""><br></p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"highlight-#fea362 confluenceTd" data-highlight-colour=3D"#=
+fea362" style=3D"text-align: left;vertical-align: top;">
+     <p title=3D""><s>Confirm</s></p></td>
+    <td class=3D"highlight-#fea362 confluenceTd" data-highlight-colour=3D"#=
+fea362" style=3D"text-align: left;vertical-align: top;">
+     <p title=3D""><s>CONF ?</s></p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p title=3D""><br></p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"highlight-#fff0b3 confluenceTd" data-highlight-colour=3D"#=
+fff0b3" style=3D"text-align: left;vertical-align: top;">
+     <p title=3D"">Yes/No</p></td>
+    <td class=3D"highlight-#fff0b3 confluenceTd" data-highlight-colour=3D"#=
+fff0b3" style=3D"text-align: left;vertical-align: top;">
+     <p title=3D""><s>YN</s><span>&nbsp;</span>FLAG</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p title=3D""><br></p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"highlight-#fea362 confluenceTd" data-highlight-colour=3D"#=
+fea362" style=3D"text-align: left;vertical-align: top;">
+     <p title=3D""><s>Yes/No Parent</s></p></td>
+    <td class=3D"highlight-#fea362 confluenceTd" data-highlight-colour=3D"#=
+fea362" style=3D"text-align: left;vertical-align: top;">
+     <p title=3D""><s>YNP</s></p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p><br></p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"highlight-#fea362 confluenceTd" data-highlight-colour=3D"#=
+fea362" style=3D"text-align: left;vertical-align: top;">
+     <p title=3D""><s>Header</s></p></td>
+    <td class=3D"highlight-#fea362 confluenceTd" data-highlight-colour=3D"#=
+fea362" style=3D"text-align: left;vertical-align: top;">
+     <p title=3D""><s>HDR</s></p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p><br></p></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>Currency</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p><s>CURR<span>&nbsp;</span></s>CRNCY</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p><br></p></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>Month</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p><s>MTH<span>&nbsp;</span></s>MNTH</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p><br></p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"highlight-#79f2c0 confluenceTd" data-highlight-colour=3D"#=
+79f2c0" style=3D"text-align: left;vertical-align: top;">
+     <p title=3D"">Timestamp</p></td>
+    <td class=3D"highlight-#79f2c0 confluenceTd" data-highlight-colour=3D"#=
+79f2c0" style=3D"text-align: left;vertical-align: top;">
+     <p title=3D"">TIMESTAMP</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p title=3D""><br></p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"highlight-#79f2c0 confluenceTd" data-highlight-colour=3D"#=
+79f2c0" style=3D"text-align: left;vertical-align: top;">
+     <p title=3D"">Monetary amount</p></td>
+    <td class=3D"highlight-#79f2c0 confluenceTd" data-highlight-colour=3D"#=
+79f2c0" style=3D"text-align: left;vertical-align: top;">
+     <p title=3D"">AMOUNT</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p title=3D""><br></p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"highlight-#79f2c0 confluenceTd" data-highlight-colour=3D"#=
+79f2c0" style=3D"text-align: left;vertical-align: top;">
+     <p title=3D"">Numeric count</p></td>
+    <td class=3D"highlight-#79f2c0 confluenceTd" data-highlight-colour=3D"#=
+79f2c0" style=3D"text-align: left;vertical-align: top;">
+     <p title=3D"">COUNT</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p title=3D""><br></p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"highlight-#79f2c0 confluenceTd" data-highlight-colour=3D"#=
+79f2c0" style=3D"text-align: left;vertical-align: top;">
+     <p title=3D"">Name (e.g., of a party)</p></td>
+    <td class=3D"highlight-#79f2c0 confluenceTd" data-highlight-colour=3D"#=
+79f2c0" style=3D"text-align: left;vertical-align: top;">
+     <p title=3D"">NAME</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p title=3D""><br></p></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p>Following is the master list of abbreviations used by the data modelling=
+ team</p>
+<p><span class=3D"confluence-embedded-file-wrapper conf-macro output-inline=
+" data-hasbody=3D"false" data-macro-name=3D"view-file"><a class=3D"confluen=
+ce-embedded-file" data-can-edit=3D"true" data-file-src=3D"/download/attachm=
+ents/1753831232/Master%20abbreviations%20list%2014JUN2024.csv?version=3D1&a=
+mp;modificationDate=3D1729747769755&amp;api=3Dv2" data-has-thumbnail=3D"fal=
+se" data-linked-resource-container-id=3D"1753831232" data-linked-resource-d=
+efault-alias=3D"Master abbreviations list 14JUN2024.csv" data-linked-resour=
+ce-id=3D"1760762363" data-linked-resource-type=3D"attachment" data-linked-r=
+esource-version=3D"1" data-mime-type=3D"text/csv" data-nice-type=3D"null" h=
+ref=3D"https://cmp.allianz.net/download/attachments/1753831232/Master%20abb=
+reviations%20list%2014JUN2024.csv?version=3D1&amp;modificationDate=3D172974=
+7769755&amp;api=3Dv2" rel=3D"nofollow" style=3D"margin-left: 2.0px;"><span =
+class=3D"confluence-embedded-file-wrapper confluence-embedded-manual-size">=
+<img class=3D"confluence-embedded-image confluence-external-resource" dragg=
+able=3D"false" height=3D"250" src=3D"8bc2c7c9979919e27ec8d98210a9ad5b4ef709=
+93826bf4e180054e26c67bbb18" data-image-src=3D"https://cmp.allianz.net/s/-64=
+nbbs/9111/1hjr1ir/19.2.50/_/download/resources/com.atlassian.confluence.plu=
+gins.confluence-view-file-macro:view-file-macro-resources/images/placeholde=
+r-medium-file.png" width=3D"333"></span></a></span></p>
+    </div>
+</body>
+</html>
+------=_Part_22166_707344242.1769443739469
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/8bc2c7c9979919e27ec8d98210a9ad5b4ef70993826bf4e180054e26c67bbb18
+
+iVBORw0KGgoAAAANSUhEUgAAAU0AAAD6CAYAAAAlSBW9AAAFYklEQVR4Ae3dv2tdVQDA8aOYDAq1
+UWgFzWAWHXSzi2gEdRAH8T/0DxB3Bx2s4A9cHDqoQyrUwRbalNIqJIPmFiyiSPN9bW7erZ8PvOGS
+S7hn+XIO97zzHvvok8/+GAAcy+MDgGMTTYBANAEC0QQIRBMgEE2AQDQBAtEECEQTIBBNgEA0AQLR
+BAhEEyAQTYBANAEC0QQIRBMgEE2AQDQBAtEECEQTIBBNgEA0AQLRBAhEEyAQTYBANAEC0QQIRBMg
+EE2AQDQBAtEECEQTIBBNgEA0AQLRBAhEEyAQTYBANAEC0QQIRBMgEE2AQDQBAtEECEQTIBBNgEA0
+AQLRBAhEEyAQTYBANAEC0QQIRBMgEE2AQDQBAtEECEQTIBBNgEA0AQLRBAhEEyAQTYBANAEC0QQI
+RBMgEE2AQDQBAtEECEQTIBBNgEA0AQLRBAhEEyAQTYBANAEC0QQIRBMgEE2AQDQBAtEECEQTIBBN
+gEA0AQLRBAieGPCA9vaujL3LV8aN/Vvj8PBwrKONjY3xzNaZsfPi9tjZ2R6wKtFkZQdHgbx48btx
+9dr1se6mmE/POX2mwO/uXhibRyGFyvKclS0lmP80PfP07LAK0WQl05J8icH8y90Z59EYoBJNVrL3
+8/KDMy3ToRJNVrJ/49ZYuv2byx8D8xNNVnKwpm/Ji4OD5Y+B+YkmQCCaAIF9mszq5Zd2xtmzZ+57
+36VLP43bd367d/3UU0+OO3+7htMimszm/fd2x9bW08e6d/uF58bHn3x67/qtN18bX3/7/djf9/KG
+02V5ziymCB43mJPNzY1/Xb/79utH/+P+s1Q4SaLJLLbOPnjshJN1IJosinBy2kSTxRFOTpNoskjC
+yWkRTRZLODkNosmiCSdzs0+TRZhOhb995/f//Purr7w0vv7m+7U9OZ5Hh2iyCBe/dGgw68HyHCAw
+02RtTd83P67Dg8NH4rg61p9osrY+/OCdY987HebxxdES3nfTOWmW5zwSplnp9vPPDThpogkQiCZA
+IJoAgWgCBKIJEIgmQCCaAIFoAgSiCRCIJkAgmgCBaAIEogkQiCZAIJrM4uq16+Ok7d90liYnTzSZ
+xRTNkwzn9MNrV375dcBJc3I7s/ns86/Gzovb49y5Z8fDdPNohvnDj3sD5iCazGrv8pW7H1gqy3OA
+QDQBAtFkJZsbG2PpNjeXPwbmJ5qsZOuZM2Ppts4ufwzMTzRZyfQWfOl2dpY/BuYnmqxkiub58w93
+69Cczp979pEIP/MTTVa2+8aFRYZzCuZbuxcGrMI+TVY2vUh59+3X7+293L9xaxwcHo51NL242to6
+c3dJbobJgxBNHtgUISHi/8LyHCAQTYBANAEC0QQIRBMgEE2AQDQBAtEECEQTIBBNgEA0AQLRBAhE
+EyAQTYBANAEC0QQIRBMgEE2AQDQBAtEECEQTIBBNgEA0AQLRBAhEEyAQTYBANAEC0QQIRBMgEE2A
+QDQBAtEECEQTIBBNgEA0AQLRBAhEEyAQTYBANAEC0QQIRBMgEE2AQDQBAtEECEQTIBBNgEA0AQLR
+BAhEEyAQTYBANAEC0QQIRBMgEE2AQDQBAtEECEQTIBBNgEA0AQLRBAhEEyAQTYBANAEC0QQIRBMg
+EE2AQDQBAtEECEQTIBBNgEA0AQLRBAhEEyAQTYBANAEC0QQIRBMgEE2AQDQBAtEECEQTIBBNgEA0
+AQLRBAhEEyAQTYBANAEC0QQIRBMgEE2AQDQBAtEECEQTIBBNgEA0AQLRBAhEEyAQTYBANAEC0QQI
+RBMgEE2AQDQBAtEECEQTIBBNgEA0AQLRBAhEEyAQTYBANAEC0QQIRBMgEE2A4E9SwrGuG3MrJgAA
+AABJRU5ErkJggg==
+------=_Part_22166_707344242.1769443739469--
